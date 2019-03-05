@@ -1,0 +1,1788 @@
+[ 2017-12-28T21:35:03+08:00 ] 127.0.0.1 /index.php/Home/User/printcard.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0000s ]
+SQL: SELECT max(id) FROM `user` WHERE `account` = 'qweqwe'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 46  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' C:\phpmystudy\WWW\Application\Home\Controller\UserController.class.php 第 346 行.
+SQL: SELECT * FROM `user` WHERE `id` = 46  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant group - assumed 'group' C:\phpmystudy\WWW\Application\Home\Controller\UserController.class.php 第 347 行.
+SQL: SELECT * FROM `user` WHERE `id` = 46  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant seat_num - assumed 'seat_num' C:\phpmystudy\WWW\Application\Home\Controller\UserController.class.php 第 348 行.
+SQL: SELECT * FROM `exam` WHERE `time` LIKE '201601%'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam` WHERE `time` LIKE '201601%'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam` WHERE `time` LIKE '201601%'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: sex C:\phpmystudy\WWW\Application\Home\Controller\UserController.class.php 第 355 行.
+NOTIC: [8] Undefined variable: id_card C:\phpmystudy\WWW\Application\Home\Controller\UserController.class.php 第 356 行.
+NOTIC: [8] Undefined variable: work_address C:\phpmystudy\WWW\Application\Home\Controller\UserController.class.php 第 359 行.
+NOTIC: [8] Undefined variable: exam_card C:\phpmystudy\WWW\Application\Home\Controller\UserController.class.php 第 360 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: examtell C:\phpmystudy\WWW\Runtime\Cache\Home\1131eaa5de72992ef604622b76f3878c.php 第 306 行.
+NOTIC: [8] Undefined variable: examtell C:\phpmystudy\WWW\Runtime\Cache\Home\1131eaa5de72992ef604622b76f3878c.php 第 307 行.
+NOTIC: [8] Undefined variable: userinfo C:\phpmystudy\WWW\Runtime\Cache\Home\1131eaa5de72992ef604622b76f3878c.php 第 394 行.
+NOTIC: [8] Undefined variable: userinfo C:\phpmystudy\WWW\Runtime\Cache\Home\1131eaa5de72992ef604622b76f3878c.php 第 401 行.
+NOTIC: [8] Undefined variable: userinfo C:\phpmystudy\WWW\Runtime\Cache\Home\1131eaa5de72992ef604622b76f3878c.php 第 408 行.
+NOTIC: [8] Undefined variable: userinfo C:\phpmystudy\WWW\Runtime\Cache\Home\1131eaa5de72992ef604622b76f3878c.php 第 415 行.
+NOTIC: [8] Undefined variable: userinfo C:\phpmystudy\WWW\Runtime\Cache\Home\1131eaa5de72992ef604622b76f3878c.php 第 422 行.
+NOTIC: [8] Undefined variable: userinfo C:\phpmystudy\WWW\Runtime\Cache\Home\1131eaa5de72992ef604622b76f3878c.php 第 453 行.
+NOTIC: [8] Undefined variable: userinfo C:\phpmystudy\WWW\Runtime\Cache\Home\1131eaa5de72992ef604622b76f3878c.php 第 490 行.
+NOTIC: [8] Undefined variable: userinfo C:\phpmystudy\WWW\Runtime\Cache\Home\1131eaa5de72992ef604622b76f3878c.php 第 497 行.
+NOTIC: [8] Undefined variable: userinfo C:\phpmystudy\WWW\Runtime\Cache\Home\1131eaa5de72992ef604622b76f3878c.php 第 504 行.
+NOTIC: [8] Undefined variable: userinfo C:\phpmystudy\WWW\Runtime\Cache\Home\1131eaa5de72992ef604622b76f3878c.php 第 511 行.
+NOTIC: [8] Undefined variable: userinfo C:\phpmystudy\WWW\Runtime\Cache\Home\1131eaa5de72992ef604622b76f3878c.php 第 518 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-28T18:16:37+08:00 ] ::1 /1/index.php/Home/Load/load
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-28T18:16:46+08:00 ] ::1 /1/index.php/Home/Load/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `user` WHERE `account` = 'zhouyi' AND `password` = '4297f44b13955235245b2497399d7a93' LIMIT 1   [ RunTime:0.0130s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-28T18:16:47+08:00 ] ::1 /1/index.php/Home/User/tongzhi.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zhuyi` [ RunTime:0.0330s ]
+SQL: SELECT MAX(id) AS tp_max FROM `zhuyi` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zhuyi` WHERE `id` = 25  [ RunTime:0.0180s ]
+SQL: SELECT * FROM `zhuyi` WHERE `id` = 24  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zhuyi` WHERE `id` = 23  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zhuyi` WHERE `id` = 22  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zhuyi` WHERE `id` = 21  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zhuyi` WHERE `id` = 20  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: examtell H:\phpStudy\WWW\1\Runtime\Cache\Home\df7321714e8b029bc710c39f76763d26.php 第 306 行.
+NOTIC: [8] Undefined variable: examtell H:\phpStudy\WWW\1\Runtime\Cache\Home\df7321714e8b029bc710c39f76763d26.php 第 307 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\df7321714e8b029bc710c39f76763d26.php 第 394 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\df7321714e8b029bc710c39f76763d26.php 第 401 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\df7321714e8b029bc710c39f76763d26.php 第 408 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\df7321714e8b029bc710c39f76763d26.php 第 415 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\df7321714e8b029bc710c39f76763d26.php 第 422 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\df7321714e8b029bc710c39f76763d26.php 第 453 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\df7321714e8b029bc710c39f76763d26.php 第 490 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\df7321714e8b029bc710c39f76763d26.php 第 497 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\df7321714e8b029bc710c39f76763d26.php 第 504 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\df7321714e8b029bc710c39f76763d26.php 第 511 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\df7321714e8b029bc710c39f76763d26.php 第 518 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-28T18:16:49+08:00 ] ::1 /1/index.php/Home/User/shenhe.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0670s ]
+SQL: SELECT MAX(id) AS tp_max FROM `user` WHERE `account` = 'zhouyi' LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT MAX(id) AS tp_max FROM `notice` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `date` FROM `notice` WHERE `id` = 13  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 198 行.
+SQL: SELECT `subject` FROM `notice` WHERE `id` = 13  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant subject - assumed 'subject' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 199 行.
+SQL: SELECT `pass` FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant pass - assumed 'pass' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 200 行.
+SQL: SELECT `reason` FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant reason - assumed 'reason' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 201 行.
+NOTIC: [8] Undefined index: upload1 H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 221 行.
+NOTIC: [8] Undefined index: upload2 H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 225 行.
+NOTIC: [8] Undefined index: upload3 H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 229 行.
+NOTIC: [8] Undefined index: upload4 H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 233 行.
+NOTIC: [8] Undefined index: upload5 H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 237 行.
+NOTIC: [8] Undefined index: upload6 H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 241 行.
+NOTIC: [8] Undefined variable: info H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 245 行.
+NOTIC: [2] Invalid argument supplied for foreach() H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 245 行.
+NOTIC: [8] Undefined variable: bigimg H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 250 行.
+SQL: UPDATE `user` SET `path`=NULL WHERE `id` = 811 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: examtell H:\phpStudy\WWW\1\Runtime\Cache\Home\3400d5118ed3d47597584e5642bf974e.php 第 306 行.
+NOTIC: [8] Undefined variable: examtell H:\phpStudy\WWW\1\Runtime\Cache\Home\3400d5118ed3d47597584e5642bf974e.php 第 307 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\3400d5118ed3d47597584e5642bf974e.php 第 394 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\3400d5118ed3d47597584e5642bf974e.php 第 401 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\3400d5118ed3d47597584e5642bf974e.php 第 408 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\3400d5118ed3d47597584e5642bf974e.php 第 415 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\3400d5118ed3d47597584e5642bf974e.php 第 422 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\3400d5118ed3d47597584e5642bf974e.php 第 453 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\3400d5118ed3d47597584e5642bf974e.php 第 490 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\3400d5118ed3d47597584e5642bf974e.php 第 497 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\3400d5118ed3d47597584e5642bf974e.php 第 504 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\3400d5118ed3d47597584e5642bf974e.php 第 511 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\3400d5118ed3d47597584e5642bf974e.php 第 518 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-28T18:16:52+08:00 ] ::1 /1/index.php/Home/User/hegezheng.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: examtell H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 306 行.
+NOTIC: [8] Undefined variable: examtell H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 307 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 394 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 401 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 408 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 415 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 422 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 453 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 490 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 497 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 504 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 511 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 518 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-28T18:16:54+08:00 ] ::1 /1/index.php/Home/User/printzs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0600s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0050s ]
+SQL: SELECT max(id) FROM `user` WHERE `account` = 'zhouyi'  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant score - assumed 'score' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 456 行.
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 457 行.
+SQL: SELECT max(id) FROM `exam`  [ RunTime:0.0000s ]
+SQL: SELECT max(id) FROM `notice`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 461 行.
+SQL: SELECT `subject` FROM `notice` WHERE `id` = 13  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam` WHERE `id` = 11  [ RunTime:0.0070s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 464 行.
+SQL: SELECT `time` FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 469 行.
+SQL: SELECT MAX(id) AS tp_max FROM `user` WHERE `account` = 'zhouyi' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: other_exam H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 506 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-28T18:22:38+08:00 ] ::1 /1/index.php/Home/User/printzs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0040s ]
+SQL: SELECT max(id) FROM `user` WHERE `account` = 'zhouyi'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant score - assumed 'score' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 456 行.
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 457 行.
+SQL: SELECT max(id) FROM `exam`  [ RunTime:0.0000s ]
+SQL: SELECT max(id) FROM `notice`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 461 行.
+SQL: SELECT `subject` FROM `notice` WHERE `id` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 464 行.
+SQL: SELECT `time` FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 469 行.
+SQL: SELECT MAX(id) AS tp_max FROM `user` WHERE `account` = 'zhouyi' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: other_exam H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 506 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-28T18:22:57+08:00 ] ::1 /1/index.php/Home/User/printzs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0040s ]
+SQL: SELECT max(id) FROM `user` WHERE `account` = 'zhouyi'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant score - assumed 'score' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 456 行.
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 457 行.
+SQL: SELECT max(id) FROM `exam`  [ RunTime:0.0000s ]
+SQL: SELECT max(id) FROM `notice`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 461 行.
+SQL: SELECT `subject` FROM `notice` WHERE `id` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 464 行.
+SQL: SELECT `time` FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 469 行.
+SQL: SELECT MAX(id) AS tp_max FROM `user` WHERE `account` = 'zhouyi' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: other_exam H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 506 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-28T18:23:11+08:00 ] ::1 /1/index.php/Home/User/printzs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0030s ]
+SQL: SELECT max(id) FROM `user` WHERE `account` = 'zhouyi'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant score - assumed 'score' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 456 行.
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 457 行.
+SQL: SELECT max(id) FROM `exam`  [ RunTime:0.0000s ]
+SQL: SELECT max(id) FROM `notice`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 461 行.
+SQL: SELECT `subject` FROM `notice` WHERE `id` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam` WHERE `id` = 11  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 464 行.
+SQL: SELECT `time` FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 469 行.
+SQL: SELECT MAX(id) AS tp_max FROM `user` WHERE `account` = 'zhouyi' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: other_exam H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 506 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-28T18:23:25+08:00 ] ::1 /1/index.php/Home/User/printzs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0030s ]
+SQL: SELECT max(id) FROM `user` WHERE `account` = 'zhouyi'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant score - assumed 'score' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 456 行.
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 457 行.
+SQL: SELECT max(id) FROM `exam`  [ RunTime:0.0000s ]
+SQL: SELECT max(id) FROM `notice`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 461 行.
+SQL: SELECT `subject` FROM `notice` WHERE `id` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam` WHERE `id` = 11  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 464 行.
+SQL: SELECT `time` FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 469 行.
+SQL: SELECT MAX(id) AS tp_max FROM `user` WHERE `account` = 'zhouyi' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: other_exam H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 506 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-28T18:23:41+08:00 ] ::1 /1/index.php/Home/User/printzs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0030s ]
+SQL: SELECT max(id) FROM `user` WHERE `account` = 'zhouyi'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant score - assumed 'score' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 456 行.
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 457 行.
+SQL: SELECT max(id) FROM `exam`  [ RunTime:0.0000s ]
+SQL: SELECT max(id) FROM `notice`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 461 行.
+SQL: SELECT `subject` FROM `notice` WHERE `id` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 464 行.
+SQL: SELECT `time` FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 469 行.
+SQL: SELECT MAX(id) AS tp_max FROM `user` WHERE `account` = 'zhouyi' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: other_exam H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 506 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-28T18:24:11+08:00 ] ::1 /1/index.php/Home/User/printzs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0030s ]
+SQL: SELECT max(id) FROM `user` WHERE `account` = 'zhouyi'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant score - assumed 'score' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 456 行.
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 457 行.
+SQL: SELECT max(id) FROM `exam`  [ RunTime:0.0010s ]
+SQL: SELECT max(id) FROM `notice`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 461 行.
+SQL: SELECT `subject` FROM `notice` WHERE `id` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 464 行.
+SQL: SELECT `time` FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 469 行.
+SQL: SELECT MAX(id) AS tp_max FROM `user` WHERE `account` = 'zhouyi' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: other_exam H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 506 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-28T18:24:24+08:00 ] ::1 /1/index.php/Home/User/printzs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0030s ]
+SQL: SELECT max(id) FROM `user` WHERE `account` = 'zhouyi'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant score - assumed 'score' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 456 行.
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 457 行.
+SQL: SELECT max(id) FROM `exam`  [ RunTime:0.0000s ]
+SQL: SELECT max(id) FROM `notice`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 461 行.
+SQL: SELECT `subject` FROM `notice` WHERE `id` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 464 行.
+SQL: SELECT `time` FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 469 行.
+SQL: SELECT MAX(id) AS tp_max FROM `user` WHERE `account` = 'zhouyi' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: other_exam H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 506 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-28T18:25:32+08:00 ] ::1 /1/index.php/Home/User/printzs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0030s ]
+SQL: SELECT max(id) FROM `user` WHERE `account` = 'zhouyi'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant score - assumed 'score' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 456 行.
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 457 行.
+SQL: SELECT max(id) FROM `exam`  [ RunTime:0.0010s ]
+SQL: SELECT max(id) FROM `notice`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 461 行.
+SQL: SELECT `subject` FROM `notice` WHERE `id` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 464 行.
+SQL: SELECT `time` FROM `exam` WHERE `id` = 11  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 469 行.
+SQL: SELECT MAX(id) AS tp_max FROM `user` WHERE `account` = 'zhouyi' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: other_exam H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 506 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-28T18:25:43+08:00 ] ::1 /1/index.php/Home/User/printzs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0030s ]
+SQL: SELECT max(id) FROM `user` WHERE `account` = 'zhouyi'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant score - assumed 'score' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 456 行.
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 457 行.
+SQL: SELECT max(id) FROM `exam`  [ RunTime:0.0010s ]
+SQL: SELECT max(id) FROM `notice`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 461 行.
+SQL: SELECT `subject` FROM `notice` WHERE `id` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam` WHERE `id` = 11  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 464 行.
+SQL: SELECT `time` FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 469 行.
+SQL: SELECT MAX(id) AS tp_max FROM `user` WHERE `account` = 'zhouyi' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: other_exam H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 506 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-28T19:33:12+08:00 ] ::1 /1/index.php/Home/User/printzs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0200s ]
+SQL: SELECT max(id) FROM `user` WHERE `account` = 'zhouyi'  [ RunTime:0.0140s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant score - assumed 'score' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 456 行.
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 457 行.
+SQL: SELECT max(id) FROM `exam`  [ RunTime:0.0000s ]
+SQL: SELECT max(id) FROM `notice`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 461 行.
+SQL: SELECT `subject` FROM `notice` WHERE `id` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam` WHERE `id` = 11  [ RunTime:0.0080s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 464 行.
+SQL: SELECT `time` FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 469 行.
+SQL: SELECT MAX(id) AS tp_max FROM `user` WHERE `account` = 'zhouyi' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: other_exam H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 506 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.008000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.009000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011000s ]
+
+[ 2017-12-28T19:33:12+08:00 ] 127.0.0.1 /1/index.php/Home/User/printzs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0050s ]
+SQL: SELECT max(id) FROM `user` WHERE `account` = 'zhouyi'  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant score - assumed 'score' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 456 行.
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 457 行.
+SQL: SELECT max(id) FROM `exam`  [ RunTime:0.0010s ]
+SQL: SELECT max(id) FROM `notice`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 461 行.
+SQL: SELECT `subject` FROM `notice` WHERE `id` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam` WHERE `id` = 11  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 464 行.
+SQL: SELECT `time` FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 469 行.
+SQL: SELECT MAX(id) AS tp_max FROM `user` WHERE `account` = 'zhouyi' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: other_exam H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 506 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-28T19:33:17+08:00 ] 127.0.0.1 /1/index.php/Home/User/printzs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0030s ]
+SQL: SELECT max(id) FROM `user` WHERE `account` = 'zhouyi'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant score - assumed 'score' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 456 行.
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 457 行.
+SQL: SELECT max(id) FROM `exam`  [ RunTime:0.0000s ]
+SQL: SELECT max(id) FROM `notice`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 461 行.
+SQL: SELECT `subject` FROM `notice` WHERE `id` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 464 行.
+SQL: SELECT `time` FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 469 行.
+SQL: SELECT MAX(id) AS tp_max FROM `user` WHERE `account` = 'zhouyi' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: other_exam H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 506 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-28T19:34:03+08:00 ] ::1 /1/index.php/Home/User/hegezheng.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: examtell H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 306 行.
+NOTIC: [8] Undefined variable: examtell H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 307 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 394 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 401 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 408 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 415 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 422 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 453 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 490 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 497 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 504 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 511 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 518 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.101006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-28T19:34:06+08:00 ] ::1 /1/index.php/Home/User/hegezheng.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: examtell H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 306 行.
+NOTIC: [8] Undefined variable: examtell H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 307 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 394 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 401 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 408 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 415 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 422 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 453 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 490 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 497 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 504 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 511 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 518 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-28T19:34:08+08:00 ] ::1 /1/index.php/Home/User/printzs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0030s ]
+SQL: SELECT max(id) FROM `user` WHERE `account` = 'zhouyi'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant score - assumed 'score' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 456 行.
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 457 行.
+SQL: SELECT max(id) FROM `exam`  [ RunTime:0.0000s ]
+SQL: SELECT max(id) FROM `notice`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 461 行.
+SQL: SELECT `subject` FROM `notice` WHERE `id` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam` WHERE `id` = 11  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 464 行.
+SQL: SELECT `time` FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 469 行.
+SQL: SELECT MAX(id) AS tp_max FROM `user` WHERE `account` = 'zhouyi' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: other_exam H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 506 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-28T19:34:41+08:00 ] ::1 /1/index.php/Home/User/printzs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0030s ]
+SQL: SELECT max(id) FROM `user` WHERE `account` = 'zhouyi'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant score - assumed 'score' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 456 行.
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 457 行.
+SQL: SELECT max(id) FROM `exam`  [ RunTime:0.0000s ]
+SQL: SELECT max(id) FROM `notice`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 461 行.
+SQL: SELECT `subject` FROM `notice` WHERE `id` = 13  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 464 行.
+SQL: SELECT `time` FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 469 行.
+SQL: SELECT MAX(id) AS tp_max FROM `user` WHERE `account` = 'zhouyi' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: other_exam H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 506 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-28T19:34:42+08:00 ] ::1 /1/index.php/Home/User/printzs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0030s ]
+SQL: SELECT max(id) FROM `user` WHERE `account` = 'zhouyi'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant score - assumed 'score' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 456 行.
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 457 行.
+SQL: SELECT max(id) FROM `exam`  [ RunTime:0.0000s ]
+SQL: SELECT max(id) FROM `notice`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 461 行.
+SQL: SELECT `subject` FROM `notice` WHERE `id` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 464 行.
+SQL: SELECT `time` FROM `exam` WHERE `id` = 11  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 469 行.
+SQL: SELECT MAX(id) AS tp_max FROM `user` WHERE `account` = 'zhouyi' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: other_exam H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 506 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-28T19:34:43+08:00 ] ::1 /1/index.php/Home/User/printzs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0020s ]
+SQL: SELECT max(id) FROM `user` WHERE `account` = 'zhouyi'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant score - assumed 'score' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 456 行.
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 457 行.
+SQL: SELECT max(id) FROM `exam`  [ RunTime:0.0000s ]
+SQL: SELECT max(id) FROM `notice`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 461 行.
+SQL: SELECT `subject` FROM `notice` WHERE `id` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam` WHERE `id` = 11  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 464 行.
+SQL: SELECT `time` FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 469 行.
+SQL: SELECT MAX(id) AS tp_max FROM `user` WHERE `account` = 'zhouyi' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: other_exam H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 506 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-28T19:34:43+08:00 ] ::1 /1/index.php/Home/User/printzs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0030s ]
+SQL: SELECT max(id) FROM `user` WHERE `account` = 'zhouyi'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant score - assumed 'score' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 456 行.
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 457 行.
+SQL: SELECT max(id) FROM `exam`  [ RunTime:0.0000s ]
+SQL: SELECT max(id) FROM `notice`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 461 行.
+SQL: SELECT `subject` FROM `notice` WHERE `id` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 464 行.
+SQL: SELECT `time` FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 469 行.
+SQL: SELECT MAX(id) AS tp_max FROM `user` WHERE `account` = 'zhouyi' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: other_exam H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 506 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-28T19:34:43+08:00 ] ::1 /1/index.php/Home/User/printzs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0030s ]
+SQL: SELECT max(id) FROM `user` WHERE `account` = 'zhouyi'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant score - assumed 'score' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 456 行.
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 457 行.
+SQL: SELECT max(id) FROM `exam`  [ RunTime:0.0000s ]
+SQL: SELECT max(id) FROM `notice`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 461 行.
+SQL: SELECT `subject` FROM `notice` WHERE `id` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 464 行.
+SQL: SELECT `time` FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 469 行.
+SQL: SELECT MAX(id) AS tp_max FROM `user` WHERE `account` = 'zhouyi' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: other_exam H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 506 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-28T19:34:43+08:00 ] ::1 /1/index.php/Home/User/printzs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0050s ]
+SQL: SELECT max(id) FROM `user` WHERE `account` = 'zhouyi'  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant score - assumed 'score' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 456 行.
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 457 行.
+SQL: SELECT max(id) FROM `exam`  [ RunTime:0.0000s ]
+SQL: SELECT max(id) FROM `notice`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 461 行.
+SQL: SELECT `subject` FROM `notice` WHERE `id` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam` WHERE `id` = 11  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 464 行.
+SQL: SELECT `time` FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 469 行.
+SQL: SELECT MAX(id) AS tp_max FROM `user` WHERE `account` = 'zhouyi' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: other_exam H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 506 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-28T19:34:44+08:00 ] ::1 /1/index.php/Home/User/printzs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0030s ]
+SQL: SELECT max(id) FROM `user` WHERE `account` = 'zhouyi'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant score - assumed 'score' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 456 行.
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 457 行.
+SQL: SELECT max(id) FROM `exam`  [ RunTime:0.0000s ]
+SQL: SELECT max(id) FROM `notice`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 461 行.
+SQL: SELECT `subject` FROM `notice` WHERE `id` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 464 行.
+SQL: SELECT `time` FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 469 行.
+SQL: SELECT MAX(id) AS tp_max FROM `user` WHERE `account` = 'zhouyi' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: other_exam H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 506 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-28T19:35:14+08:00 ] ::1 /1/index.php/Home/load/load
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-28T19:35:22+08:00 ] ::1 /1/index.php/Home/Load/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user` WHERE `account` = 'zhouyi' AND `password` = '4297f44b13955235245b2497399d7a93' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-28T19:35:23+08:00 ] ::1 /1/index.php/Home/User/tongzhi.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zhuyi` [ RunTime:0.0770s ]
+SQL: SELECT MAX(id) AS tp_max FROM `zhuyi` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zhuyi` WHERE `id` = 25  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zhuyi` WHERE `id` = 24  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zhuyi` WHERE `id` = 23  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zhuyi` WHERE `id` = 22  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zhuyi` WHERE `id` = 21  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zhuyi` WHERE `id` = 20  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: examtell H:\phpStudy\WWW\1\Runtime\Cache\Home\df7321714e8b029bc710c39f76763d26.php 第 306 行.
+NOTIC: [8] Undefined variable: examtell H:\phpStudy\WWW\1\Runtime\Cache\Home\df7321714e8b029bc710c39f76763d26.php 第 307 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\df7321714e8b029bc710c39f76763d26.php 第 394 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\df7321714e8b029bc710c39f76763d26.php 第 401 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\df7321714e8b029bc710c39f76763d26.php 第 408 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\df7321714e8b029bc710c39f76763d26.php 第 415 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\df7321714e8b029bc710c39f76763d26.php 第 422 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\df7321714e8b029bc710c39f76763d26.php 第 453 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\df7321714e8b029bc710c39f76763d26.php 第 490 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\df7321714e8b029bc710c39f76763d26.php 第 497 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\df7321714e8b029bc710c39f76763d26.php 第 504 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\df7321714e8b029bc710c39f76763d26.php 第 511 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\df7321714e8b029bc710c39f76763d26.php 第 518 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-28T19:35:27+08:00 ] ::1 /1/index.php/Home/User/hegezheng.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: examtell H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 306 行.
+NOTIC: [8] Undefined variable: examtell H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 307 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 394 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 401 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 408 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 415 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 422 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 453 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 490 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 497 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 504 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 511 行.
+NOTIC: [8] Undefined variable: userinfo H:\phpStudy\WWW\1\Runtime\Cache\Home\114bc4a0da12ca107f75dc038974b2f8.php 第 518 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-28T19:35:28+08:00 ] ::1 /1/index.php/Home/User/printzs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0020s ]
+SQL: SELECT max(id) FROM `user` WHERE `account` = 'zhouyi'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant score - assumed 'score' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 456 行.
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 457 行.
+SQL: SELECT max(id) FROM `exam`  [ RunTime:0.0000s ]
+SQL: SELECT max(id) FROM `notice`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 461 行.
+SQL: SELECT `subject` FROM `notice` WHERE `id` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam` WHERE `id` = 11  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 464 行.
+SQL: SELECT `time` FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 469 行.
+SQL: SELECT MAX(id) AS tp_max FROM `user` WHERE `account` = 'zhouyi' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: other_exam H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 506 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-28T19:36:45+08:00 ] ::1 /1/index.php/Home/User/printzs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0030s ]
+SQL: SELECT max(id) FROM `user` WHERE `account` = 'zhouyi'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant score - assumed 'score' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 456 行.
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 457 行.
+SQL: SELECT max(id) FROM `exam`  [ RunTime:0.0000s ]
+SQL: SELECT max(id) FROM `notice`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 461 行.
+SQL: SELECT `subject` FROM `notice` WHERE `id` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 464 行.
+SQL: SELECT `time` FROM `exam` WHERE `id` = 11  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 469 行.
+SQL: SELECT MAX(id) AS tp_max FROM `user` WHERE `account` = 'zhouyi' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: other_exam H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 506 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-28T19:37:15+08:00 ] ::1 /1/index.php/Home/User/printzs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0030s ]
+SQL: SELECT max(id) FROM `user` WHERE `account` = 'zhouyi'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant score - assumed 'score' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 456 行.
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 457 行.
+SQL: SELECT max(id) FROM `exam`  [ RunTime:0.0000s ]
+SQL: SELECT max(id) FROM `notice`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 461 行.
+SQL: SELECT `subject` FROM `notice` WHERE `id` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 464 行.
+SQL: SELECT `time` FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 469 行.
+SQL: SELECT MAX(id) AS tp_max FROM `user` WHERE `account` = 'zhouyi' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: other_exam H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 506 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-12-28T19:37:15+08:00 ] ::1 /1/index.php/Home/User/printzs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0030s ]
+SQL: SELECT max(id) FROM `user` WHERE `account` = 'zhouyi'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant score - assumed 'score' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 456 行.
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 457 行.
+SQL: SELECT max(id) FROM `exam`  [ RunTime:0.0000s ]
+SQL: SELECT max(id) FROM `notice`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 461 行.
+SQL: SELECT `subject` FROM `notice` WHERE `id` = 13  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 464 行.
+SQL: SELECT `time` FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 469 行.
+SQL: SELECT MAX(id) AS tp_max FROM `user` WHERE `account` = 'zhouyi' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: other_exam H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 506 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-28T19:37:32+08:00 ] ::1 /1/index.php/Home/User/printzs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0030s ]
+SQL: SELECT max(id) FROM `user` WHERE `account` = 'zhouyi'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant score - assumed 'score' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 456 行.
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 457 行.
+SQL: SELECT max(id) FROM `exam`  [ RunTime:0.0000s ]
+SQL: SELECT max(id) FROM `notice`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 461 行.
+SQL: SELECT `subject` FROM `notice` WHERE `id` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 464 行.
+SQL: SELECT `time` FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 469 行.
+SQL: SELECT MAX(id) AS tp_max FROM `user` WHERE `account` = 'zhouyi' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: other_exam H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 506 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-28T19:56:32+08:00 ] ::1 /1/index.php/Home/User/printzs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0030s ]
+SQL: SELECT max(id) FROM `user` WHERE `account` = 'zhouyi'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant score - assumed 'score' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 456 行.
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 457 行.
+SQL: SELECT max(id) FROM `exam`  [ RunTime:0.0000s ]
+SQL: SELECT max(id) FROM `notice`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 461 行.
+SQL: SELECT `subject` FROM `notice` WHERE `id` = 13  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 464 行.
+SQL: SELECT `time` FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 469 行.
+SQL: SELECT MAX(id) AS tp_max FROM `user` WHERE `account` = 'zhouyi' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: other_exam H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 506 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-28T21:09:33+08:00 ] ::1 /1/index.php/Home/User/printzs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0030s ]
+SQL: SELECT max(id) FROM `user` WHERE `account` = 'zhouyi'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant score - assumed 'score' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 456 行.
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 457 行.
+SQL: SELECT max(id) FROM `exam`  [ RunTime:0.0000s ]
+SQL: SELECT max(id) FROM `notice`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 461 行.
+SQL: SELECT `subject` FROM `notice` WHERE `id` = 13  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 464 行.
+SQL: SELECT `time` FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 469 行.
+SQL: SELECT MAX(id) AS tp_max FROM `user` WHERE `account` = 'zhouyi' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: other_exam H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 506 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-28T21:09:41+08:00 ] ::1 /1/index.php/Home/User/printzs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0050s ]
+SQL: SELECT max(id) FROM `user` WHERE `account` = 'zhouyi'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant score - assumed 'score' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 456 行.
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 457 行.
+SQL: SELECT max(id) FROM `exam`  [ RunTime:0.0000s ]
+SQL: SELECT max(id) FROM `notice`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 461 行.
+SQL: SELECT `subject` FROM `notice` WHERE `id` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 464 行.
+SQL: SELECT `time` FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 469 行.
+SQL: SELECT MAX(id) AS tp_max FROM `user` WHERE `account` = 'zhouyi' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: other_exam H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 506 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-28T21:09:54+08:00 ] ::1 /1/index.php/Home/User/printzs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0020s ]
+SQL: SELECT max(id) FROM `user` WHERE `account` = 'zhouyi'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant score - assumed 'score' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 456 行.
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 457 行.
+SQL: SELECT max(id) FROM `exam`  [ RunTime:0.0000s ]
+SQL: SELECT max(id) FROM `notice`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 461 行.
+SQL: SELECT `subject` FROM `notice` WHERE `id` = 13  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 464 行.
+SQL: SELECT `time` FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 469 行.
+SQL: SELECT MAX(id) AS tp_max FROM `user` WHERE `account` = 'zhouyi' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: other_exam H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 506 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-28T21:10:11+08:00 ] ::1 /1/index.php/Home/User/printzs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0030s ]
+SQL: SELECT max(id) FROM `user` WHERE `account` = 'zhouyi'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant score - assumed 'score' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 456 行.
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 457 行.
+SQL: SELECT max(id) FROM `exam`  [ RunTime:0.0000s ]
+SQL: SELECT max(id) FROM `notice`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 461 行.
+SQL: SELECT `subject` FROM `notice` WHERE `id` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam` WHERE `id` = 11  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 464 行.
+SQL: SELECT `time` FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 469 行.
+SQL: SELECT MAX(id) AS tp_max FROM `user` WHERE `account` = 'zhouyi' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: other_exam H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 506 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-28T21:10:28+08:00 ] ::1 /1/index.php/Home/User/printzs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0030s ]
+SQL: SELECT max(id) FROM `user` WHERE `account` = 'zhouyi'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant score - assumed 'score' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 456 行.
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 457 行.
+SQL: SELECT max(id) FROM `exam`  [ RunTime:0.0000s ]
+SQL: SELECT max(id) FROM `notice`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 461 行.
+SQL: SELECT `subject` FROM `notice` WHERE `id` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 464 行.
+SQL: SELECT `time` FROM `exam` WHERE `id` = 11  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 469 行.
+SQL: SELECT MAX(id) AS tp_max FROM `user` WHERE `account` = 'zhouyi' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: other_exam H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 506 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-28T21:10:43+08:00 ] ::1 /1/index.php/Home/User/printzs.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0060s ]
+SQL: SELECT max(id) FROM `user` WHERE `account` = 'zhouyi'  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant score - assumed 'score' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 456 行.
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 457 行.
+SQL: SELECT max(id) FROM `exam`  [ RunTime:0.0010s ]
+SQL: SELECT max(id) FROM `notice`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 461 行.
+SQL: SELECT `subject` FROM `notice` WHERE `id` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam` WHERE `id` = 11  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 464 行.
+SQL: SELECT `time` FROM `exam` WHERE `id` = 11  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 469 行.
+SQL: SELECT MAX(id) AS tp_max FROM `user` WHERE `account` = 'zhouyi' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE `id` = 811  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: other_exam H:\phpStudy\WWW\1\Application\Home\Controller\UserController.class.php 第 506 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
