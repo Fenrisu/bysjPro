@@ -48,7 +48,7 @@ img:hover{
 <body>
 <header>
 <div class="container">
-  <span class="text-primary h3">甘肃省防雷装置检测专业技术人员能力评价管理系统注册</span><p class="text-right">返回<a href="load.html" class="h4" style="text-decoration: none;color:#8cd5ed;">登录</a>页面</p>
+  <span class="text-primary h3">成都信息工程大学考试管理系统注册</span><p class="text-right">返回<a href="load.html" class="h4" style="text-decoration: none;color:#8cd5ed;">登录</a>页面</p>
 </div>
 </header>
 <div class="container" style="margin-top:20px;">
@@ -123,6 +123,13 @@ img:hover{
         </div>
       </div>
       <div class="form-group">
+        <label for="from" class="col-sm-2  control-label">所学专业 :</label>
+        <div class="col-sm-10  input-parent">
+          <input type="text" class="form-control vinput" id="major" name="major" placeholder="请输入毕业院校">    
+          <span></span>
+        </div>
+      </div>
+      <!-- <div class="form-group">
         <label for="position" class="col-sm-2  control-label">所学专业 :</label>
         <div class="col-sm-10 input-parent">
           <select class="form-control vinput" name="major">
@@ -138,7 +145,7 @@ img:hover{
           </select>
           <span></span>
         </div>
-      </div>
+      </div> -->
        <div class="form-group">
         <label for="position" class="col-sm-2  control-label">学 &nbsp;&nbsp;&nbsp;&nbsp; 历 :</label>
         <div class="col-sm-10 input-parent">

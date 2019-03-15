@@ -39,14 +39,14 @@ header{
 <body>
 <header>
 <div class="container">
-  <span class="text-primary h3">甘肃省防雷装置检测专业技术人员能力评价管理系统注册</span><p class="text-right">返回<a href="load.html" class="h4" style="text-decoration: none;color:#8cd5ed;">注册</a>页面</p>
+  <span class="text-primary h3">成都信息工程大学考试管理系统注册</span><p class="text-right">返回<a href="load.html" class="h4" style="text-decoration: none;color:#8cd5ed;">注册</a>页面</p>
 </div>
 </header>
 <div class="container" style="margin-top:20px;">
   <div class="reginfo col-sm-11 col-sm-offset-1">
     <ul class="list-group">
       <li class="list-group-item active h3">注册须知</li>
-      <li class="list-group-item">1、报考防雷专业技术人员能力考试的人员，必须先进行注册，注册后才能进行报名操作</li>
+      <li class="list-group-item">1、报考考试的人员，必须先进行注册，注册后才能进行报名操作</li>
       <li class="list-group-item">2、身份证号、姓名将引用到报名信息中，手机和邮箱将作为报考人员接收相关考试信息的工具,请务必保证身份证号、姓名、手机和邮箱信息完整、准确并和本人相符</li>
       <li class="list-group-item">3、相同的身份证号和姓名只允许注册一次，请勿重复注册</li>
       <li class="list-group-item">4、用户名和密码要妥善保管，如密码丢失，可使用系统提供方式找回密码</li>
