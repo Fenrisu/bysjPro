@@ -615,12 +615,12 @@ a { text-decoration: none; }
   </div>
   </div>
   </div>
-  <footer>
+<!--   <footer>
   <nav class="navbar text-center navbar-fixed-bottom">
       Copyright xxx Gan su Meteorological Society<br>
       甘肃省气象学会 &copy;版权所有
   </nav>
-</footer>
+</footer> -->
 <script>
 $(function(){
 $('.xbtn').click(function(){

@@ -39,7 +39,7 @@ header{
 <body>
 <header>
 <div class="container">
-  <span class="text-primary h3">成都信息工程大学考试管理系统注册</span><p class="text-right">返回<a href="load.html" class="h4" style="text-decoration: none;color:#8cd5ed;">注册</a>页面</p>
+  <span class="text-primary h3">考证管理系统注册</span><p class="text-right">返回<a href="load.html" class="h4" style="text-decoration: none;color:#8cd5ed;">注册</a>页面</p>
 </div>
 </header>
 <div class="container" style="margin-top:20px;">

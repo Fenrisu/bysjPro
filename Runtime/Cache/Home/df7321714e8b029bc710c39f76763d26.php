@@ -617,12 +617,12 @@ a { text-decoration: none; }
 </div>
 </div>
 <br><br><br><br>
-<footer>
+<!-- <footer>
   <nav class="navbar text-center navbar-fixed-bottom">
       Copyright xxx Gan su Meteorological Society<br>
       甘肃省气象学会 &copy;版权所有
   </nav>
-</footer>
+</footer> -->
 <script type="text/javascript">
 	var index=0;
 	var timer;

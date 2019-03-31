@@ -65,7 +65,7 @@ $(document).ready(function() {
 </script>
 <body>
 <header>
-<p>甘肃省防雷装置检测专业技术人员能力评价管理系统</p>
+<p>考试安排系统</p>
 </header>
   <!--<div class="main_load">
     <form method="post" action="">
@@ -101,11 +101,11 @@ $(document).ready(function() {
  </dd>
  </form>
 </dl>
-<footer>
+<!-- <footer>
   <nav>
       <p style="text-align: center;">Copyright xxx Gan su Meteorological Society</p>
       <p style="text-align: center;">甘肃省气象学会 &copy;版权所有<p>
   </nav>
-</footer>
+</footer> -->
 </body>
 </html>

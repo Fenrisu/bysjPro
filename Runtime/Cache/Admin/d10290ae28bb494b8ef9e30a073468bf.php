@@ -252,12 +252,12 @@ img:hover{
 </div>
 </div>
 
-<footer>
+<!-- <footer>
   <nav>
       <p style="text-align: center;">Copyright xxx Gan su Meteorological Society</p>
       <p style="text-align: center;">甘肃省气象学会 &copy;版权所有<p>
   </nav>
-</footer>
+</footer> -->
 </body>
 </html>
 <script type="text/javascript" src="http://localhost/Application/Admin/Public/js/baguetteBox.min.js"></script>

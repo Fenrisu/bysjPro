@@ -8,7 +8,6 @@ class UserController extends BaseController {
 	    $where['account'] = session('account');
 	    $where['real_account'] = session('username');
 	    $this->userinfo=$userinfo=M('user')->where($where)->select();
-		//dump($userinfo);
 		$this->display();
 	}
 	
@@ -21,9 +20,10 @@ class UserController extends BaseController {
 			for($i=0; $i<6; $i++){
 				$zhuyiAll[] = $zhuyi->where(array('id'=>($maxId)-$i))->select()[0];
 				$this->assign('zhuyiAll', $zhuyiAll);
+				// var_dump($zhuyiAll);exit();
 			}
 		}else{
-			$zhuyiAll = $zhuyi->select();
+			$zhuyiAll = $zhuyi->select()[0];
 			$this->assign('zhuyiAll', $zhuyiAll);
 			//var_dump($zhuyiAll);exit();
 		}
@@ -43,7 +43,9 @@ class UserController extends BaseController {
 		//$this->assign("baoming",0);
 		$index=M('notice');
 		$datemax=$index->field("max(id)")->select()[0]['max(id)'];    //通知公告的显示
-		$newdate=$index->where(array('id'=>$datemax))->select();   //notice最新日期
+		$newdate=$index->where(array('id'=>$datemax))->select();
+      	// var_dump($datemax);exit;
+		   //notice最新日期
 		$indexx=M('user');
 		$datemaxx=$indexx->where(array('account'=>I('session.account')))->max('id');    //通知公告的显示
 		$newdatee=$indexx->where(array('id'=>$datemaxx,'account'=>I('session.account')))->select();//user最新日期
@@ -208,7 +210,7 @@ class UserController extends BaseController {
 		    $upload = new \Think\Upload();// 实例化上传类
             $upload->maxSize   =     8145728 ;// 设置附件上传大小
             $upload->exts      =     array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
-            $upload->rootPath  =     './Uploads/'; // 设置附件上传根目录
+            $upload->rootPath  =     './Upsloads/'; // 设置附件上传根目录
             $upload->savePath  =     ''; // 设置附件上传（子）目录
 		    $upload->subName   =    I('session.id_card');
 		    $upload->replace   =    'true';
@@ -254,7 +256,9 @@ class UserController extends BaseController {
 	public function ziliao(){
 	$messeage = M("user");
 	$max=$messeage->field("max(id)")->where(array('account'=>I('session.account')))->select()[0]['max(id)'];    ///显示之前信息
+	
 	$account=$messeage->where(array('id'=>$max))->select()[0][account];
+	// var_dump($max);exit;
 	$real_account=$messeage->where(array('id'=>$max))->select()[0][real_account];
 	$sex=$messeage->where(array('id'=>$max))->select()[0][sex];
 	$birth=$messeage->where(array('id'=>$max))->select()[0][birth];

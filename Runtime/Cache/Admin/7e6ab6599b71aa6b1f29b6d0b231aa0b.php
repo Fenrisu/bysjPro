@@ -470,18 +470,16 @@ a { text-decoration: none; }
       <div class="form-group">
         <label for="name" class="col-sm-2  control-label">考试科目 :</label>
         <div class="col-sm-10  input-parent">
-        <select class="form-control vinput" name="subject">
+        <input type="text" class="form-control vinput" id="subject" name="subject"  >
+        <!-- <select class="form-control vinput" name="subject">
           <option value="防雷装置检测">防雷装置检测</option>
-        </select>
+        </select> -->
         </div>
       </div>
       <div class="form-group">
         <label for="name" class="col-sm-2  control-label">考试时间 :</label>
         <div class="col-sm-4 input-parent">
           <select class="form-control vinput" name="year">
-            <option value="2016">2016年</option>
-            <option value="2017">2017年</option>
-            <option value="2018">2018年</option>
             <option value="2019">2019年</option>
             <option value="2020">2020年</option>
             <option value="2021">2021年</option>
