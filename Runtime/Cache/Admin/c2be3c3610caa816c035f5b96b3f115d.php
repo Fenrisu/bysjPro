@@ -4,24 +4,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>添加用户</title>
-  <link href="http://localhost/Application/Admin/Public/css/bootstrap.min.css" rel="stylesheet">
-  <link href="http://localhost/Application/Admin/Public/css/normalize.css" rel="stylesheet">
-  <link href="http://localhost/Application/Admin/Public/css/public.css" rel="stylesheet">
-  <link href="http://localhost/Application/Admin/Public/css/validator.css" rel="stylesheet">
-  <link href="http://localhost/Application/Admin/Public/css/completer.css" rel="stylesheet">
-  <link href="http://localhost/Application/Admin/Public/jedate/skin/jedate.css" rel="stylesheet">
-  <link href="http://localhost/Application/Admin/Public/css/date.css" type="text/css" rel="stylesheet">
-  <link href="http://localhost/Application/Admin/Public/css/magic-check.css" rel="stylesheet" >
-  <link href="http://localhost/Application/Admin/Public/css/jquery-ui.css" rel="stylesheet">  
-  <link href="http://localhost/Application/Admin/Public/css/index.css" rel="stylesheet">  
-  <script src="http://localhost/Application/Admin/Public/js/jquery-3.1.1.min.js"></script>
-  <script src="http://localhost/Application/Admin/Public/js/bootstrap.min.js"></script>
-  <script  src="http://localhost/Application/Admin/Public/js/public.js"></script>
-  <script  src="http://localhost/Application/Admin/Public/js/date.js"></script>
-  <script  src="http://localhost/Application/Admin/Public/js/jquery-validate.js"></script>
-  <script  src="http://localhost/Application/Admin/Public/js/validator.js"></script>
-  <script  src="http://localhost/Application/Admin/Public/js/index.js"></script>
-  <script type="text/javascript" src="http://localhost/Application/Admin/Public/jedate/jedate.js"></script>
+  <link href="http://localhost/bysj/Application/Admin/Public/css/bootstrap.min.css" rel="stylesheet">
+  <link href="http://localhost/bysj/Application/Admin/Public/css/normalize.css" rel="stylesheet">
+  <link href="http://localhost/bysj/Application/Admin/Public/css/public.css" rel="stylesheet">
+  <link href="http://localhost/bysj/Application/Admin/Public/css/validator.css" rel="stylesheet">
+  <link href="http://localhost/bysj/Application/Admin/Public/css/completer.css" rel="stylesheet">
+  <link href="http://localhost/bysj/Application/Admin/Public/jedate/skin/jedate.css" rel="stylesheet">
+  <link href="http://localhost/bysj/Application/Admin/Public/css/date.css" type="text/css" rel="stylesheet">
+  <link href="http://localhost/bysj/Application/Admin/Public/css/magic-check.css" rel="stylesheet" >
+  <link href="http://localhost/bysj/Application/Admin/Public/css/jquery-ui.css" rel="stylesheet">  
+  <link href="http://localhost/bysj/Application/Admin/Public/css/index.css" rel="stylesheet">  
+  <script src="http://localhost/bysj/Application/Admin/Public/js/jquery-3.1.1.min.js"></script>
+  <script src="http://localhost/bysj/Application/Admin/Public/js/bootstrap.min.js"></script>
+  <script  src="http://localhost/bysj/Application/Admin/Public/js/public.js"></script>
+  <script  src="http://localhost/bysj/Application/Admin/Public/js/date.js"></script>
+  <script  src="http://localhost/bysj/Application/Admin/Public/js/jquery-validate.js"></script>
+  <script  src="http://localhost/bysj/Application/Admin/Public/js/validator.js"></script>
+  <script  src="http://localhost/bysj/Application/Admin/Public/js/index.js"></script>
+  <script type="text/javascript" src="http://localhost/bysj/Application/Admin/Public/jedate/jedate.js"></script>
 
   <!--[if lt IE 9]>
   <script type="text/javascript" src="http://www.jq22.com/jquery/jquery-ui-1.10.2.js"></script>
@@ -48,7 +48,7 @@ img:hover{
 <body>
 <header>
 <div class="container">
-  <span class="text-primary h3">甘肃省防雷装置检测专业技术人员能力评价管理系统注册</span><p class="text-right">返回<a href="shenhe.html" class="h4" style="text-decoration: none;color:#8cd5ed;">审核</a>页面</p>
+  <span class="text-primary h3">考试管理管理系统用户添加</span><p class="text-right">返回<a href="shenhe.html" class="h4" style="text-decoration: none;color:#8cd5ed;">审核</a>页面</p>
 </div>
 </header>
 <div class="container" style="margin-top:20px;">
@@ -244,7 +244,7 @@ img:hover{
                 <div class="input-group row">
                     <div class="col-sm-12 big-photo">
                       <div id="preview1">
-                            <img id="imghead1" border="0" src="http://localhost/Application/Admin/Public/images/photo_icon.png" width="100px" height="100px"  onclick="$('#previewImg1').click();">
+                            <img id="imghead1" border="0" src="http://localhost/bysj/Application/Admin/Public/images/photo_icon.png" width="100px" height="100px"  onclick="$('#previewImg1').click();">
                          </div>         
                         <input type="file" name="upload1"onchange="previewImage(this,1)" style="display: none;" id="previewImg1">
                     </div>
@@ -260,7 +260,7 @@ img:hover{
                 <div class="input-group row">
                     <div class="col-sm-12 big-photo">
                       <div id="preview2">
-                            <img id="imghead" border="0" src="http://localhost/Application/Admin/Public/images/photo_icon.png" width="100px" height="100px"  onclick="$('#previewImg2').click();">
+                            <img id="imghead" border="0" src="http://localhost/bysj/Application/Admin/Public/images/photo_icon.png" width="100px" height="100px"  onclick="$('#previewImg2').click();">
                          </div>         
                         <input type="file"  name="upload2" onchange="previewImage(this,2)" style="display: none;" id="previewImg2">
                     </div>
@@ -276,7 +276,7 @@ img:hover{
                 <div class="input-group row">
                     <div class="col-sm-12 big-photo">
                       <div id="preview3">
-                            <img id="imghead3" border="0" src="http://localhost/Application/Admin/Public/images/photo_icon.png" width="100px" height="100px"  onclick="$('#previewImg3').click();">
+                            <img id="imghead3" border="0" src="http://localhost/bysj/Application/Admin/Public/images/photo_icon.png" width="100px" height="100px"  onclick="$('#previewImg3').click();">
                          </div>         
                         <input type="file"  name="upload3"  onchange="previewImage(this,3)" style="display: none;" id="previewImg3">
                     </div>
@@ -292,7 +292,7 @@ img:hover{
                 <div class="input-group row">
                     <div class="col-sm-12 big-photo">
                       <div id="preview4">
-                            <img id="imghead4" border="0" src="http://localhost/Application/Admin/Public/images/photo_icon.png" width="100px" height="100px"  onclick="$('#previewImg4').click();">
+                            <img id="imghead4" border="0" src="http://localhost/bysj/Application/Admin/Public/images/photo_icon.png" width="100px" height="100px"  onclick="$('#previewImg4').click();">
                          </div>         
                         <input type="file"   name="upload4" onchange="previewImage(this,4)" style="display: none;" id="previewImg4">
                     </div>
@@ -308,7 +308,7 @@ img:hover{
                 <div class="input-group row">
                     <div class="col-sm-12 big-photo">
                       <div id="preview5">
-                            <img id="imghead5" border="0" src="http://localhost/Application/Admin/Public/images/photo_icon.png" width="100px" height="100px"  onclick="$('#previewImg5').click();">
+                            <img id="imghead5" border="0" src="http://localhost/bysj/Application/Admin/Public/images/photo_icon.png" width="100px" height="100px"  onclick="$('#previewImg5').click();">
                          </div>         
                         <input type="file"   name="upload5" onchange="previewImage(this,5)" style="display: none;" id="previewImg5">
                     </div>
@@ -324,7 +324,7 @@ img:hover{
                 <div class="input-group row">
                     <div class="col-sm-12 big-photo">
                       <div id="preview6">
-                            <img id="imghead6" border="0" src="http://localhost/Application/Admin/Public/images/photo_icon.png" width="100px" height="100px"  onclick="$('#previewImg6').click();">
+                            <img id="imghead6" border="0" src="http://localhost/bysj/Application/Admin/Public/images/photo_icon.png" width="100px" height="100px"  onclick="$('#previewImg6').click();">
                          </div>         
                         <input type="file"   name="upload6" onchange="previewImage(this,6)" style="display: none;" id="previewImg6">
                     </div>

@@ -3,12 +3,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
   <title>下载准考证</title>
-  <script type="text/javascript" src="http://localhost/Application/Home/Public/js/jquery-3.1.1.min.js"></script>
-  <script type="text/javascript" src="http://localhost/Application/Home/Public/bootstrap/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="http://localhost/Application/Home/Public/js/canvg2.js"></script>
-    <script type="text/javascript" src="http://localhost/Application/Home/Public/js/html2canvas-0.4.1.js"></script>
-    <script type="text/javascript" src="http://localhost/Application/Home/Public/js/jspdf.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="http://localhost/Application/Home/Public/bootstrap/css/bootstrap.min.css"/>
+  <script type="text/javascript" src="http://localhost/bysj/Application/Home/Public/js/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="http://localhost/bysj/Application/Home/Public/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="http://localhost/bysj/Application/Home/Public/js/canvg2.js"></script>
+    <script type="text/javascript" src="http://localhost/bysj/Application/Home/Public/js/html2canvas-0.4.1.js"></script>
+    <script type="text/javascript" src="http://localhost/bysj/Application/Home/Public/js/jspdf.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="http://localhost/bysj/Application/Home/Public/bootstrap/css/bootstrap.min.css"/>
 </head>
 <style type="text/css">
   * { margin: 0; padding: 0 }
@@ -26,7 +26,7 @@
 <nav class="navbar navbar-default" style="background-color: #29aae1;">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#" style="color:#fff;">甘肃省防雷装置检测专业技术人员能力评价管理系统</a>
+      <a class="navbar-brand" href="#" style="color:#fff;">考试管理系统</a>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
@@ -100,12 +100,7 @@
     </div>
   </div>
 </div>
-<footer>
-  <nav>
-      <p style="text-align: center;">Copyright xxx Gan su Meteorological Society</p>
-      <p style="text-align: center;">甘肃省气象学会 &copy;版权所有<p>
-  </nav>
-</footer>
+
 </body>
 </html>
 <script type="text/javascript">

@@ -3,12 +3,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
   <title>下载合格证</title>
-  <script type="text/javascript" src="http://localhost/Application/Home/Public//js/jquery-3.1.1.min.js"></script>
-  <script type="text/javascript" src="http://localhost/Application/Home/Public//bootstrap/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="http://localhost/Application/Home/Public//js/canvg2.js"></script>
-    <script type="text/javascript" src="http://localhost/Application/Home/Public//js/html2canvas-0.4.1.js"></script>
-    <script type="text/javascript" src="http://localhost/Application/Home/Public//js/jspdf.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="http://localhost/Application/Home/Public//bootstrap/css/bootstrap.min.css"/>
+  <script type="text/javascript" src="http://localhost/bysj/Application/Home/Public//js/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="http://localhost/bysj/Application/Home/Public//bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="http://localhost/bysj/Application/Home/Public//js/canvg2.js"></script>
+    <script type="text/javascript" src="http://localhost/bysj/Application/Home/Public//js/html2canvas-0.4.1.js"></script>
+    <script type="text/javascript" src="http://localhost/bysj/Application/Home/Public//js/jspdf.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="http://localhost/bysj/Application/Home/Public//bootstrap/css/bootstrap.min.css"/>
 </head>
 <style type="text/css">
   * { margin: 0; padding: 0 }
@@ -26,7 +26,8 @@
 <nav class="navbar navbar-default" style="background-color: #29aae1;">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#" style="color:#fff;">甘肃省防雷装置检测专业技术人员能力评价管理系统</a>
+      <a class="navbar-brand" href="#" style="color:#fff;">
+      考试管理系统</a>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
@@ -43,17 +44,17 @@
   <div class="container">
     <div class="col-sm-12">
       <div id="pdfContainer" style="height:800px;" class="contan">
-        <p style="float: left;margin-left:50px;margin-top: 10px;"><image src="../../../Application/Common/barcode/buildcode.php?codebar=BCGcode39&text=<?=$zhengshu?>" width="350px" height="45px"/></p>
-        <p class="h2" style="font-weight: bold; margin-top:100px;margin-left:-80px;color:#b4ad88;">甘肃省雷电防护装置检测能力评价</p><br>
+        <p style="float: left;margin-left:50px;margin-top: 10px;"><!-- <image src="../../../Application/Common/barcode/buildcode.php?codebar=BCGcode39&text=<?=$zhengshu?>" width="350px" height="45px"/></p> -->
+        <p class="h2" style="font-weight: bold; margin-top:100px;margin-left:-80px;color:#b4ad88;">***********能力评价</p><br>
         <p style="font-weight: bold;font-size: 70px;margin-left:-80px;color:#b4ad88;">证&nbsp;&nbsp;&nbsp;&nbsp;书</p>
         <img src="<?=$s?>" style="width:180px;height:200px;margin-top:-250px;margin-left:670px;">
-        <p style="margin-top:50px;margin-right: 80px;line-height: 30px;font-size:23px;" ><span style="font-weight: bold;margin-left:80px;margin-right: 30px;color:#ff5050;font-size:23px;"><?=$real_account?></span>参加甘肃省雷电防护装置检测能力评价考试，成绩合格，特发此证。</p>
-		<p  style="margin-left:-270px;margin-top:0px;font-size:23px;">有效期限：<span style="color:#ff5050;"><?=$time_2?>年<?=$mouth?>月<?=$day?>日至<?=$later_year?>年<?=$mouth?>月<?=$later_day?>日</span>。</p>
-        <img src="../../../Uploads/2.png" width="170" height="160" style="margin-left:570px;position: relative;top:50px;"/>
-        <p class="h4 text-right" style="margin-top:0px;margin-right: 180px;font-weight: bold;">签发单位：甘肃省气象学会</p>
+        <p style="margin-top:50px;margin-right: 80px;line-height: 30px;font-size:23px;" ><span style="font-weight: bold;margin-left:80px;margin-right: 30px;color:#ff5050;font-size:23px;"><?=$real_account?></span>参加*********能力评价考试，成绩合格，特发此证。</p>
+		<p  style="margin-left:-270px;margin-top:0px;font-size:23px;"><!-- 有效期限： --><span style="color:#ff5050;"><!-- <?=$time_2?>年<?=$mouth?>月<?=$day?>日至<?=$later_year?>年<?=$mouth?>月<?=$later_day?>日 --></span><!-- 。 --></p>
+        <!-- <img src="../../../Uploads/2.png" width="170" height="160" style="margin-left:570px;position: relative;top:50px;"/> -->
+        <p class="h4 text-right" style="margin-top:200px;margin-right: 180px;font-weight: bold;">签发单位：成都信息工程大学</p>
         <p class="h4 text-right" style="margin-right: 173px;font-weight: bold;">签发日期：<span style="color:#000000;"><?=$time_2?>年<?=$mouth?>月<?=$day?>日</span></p>
         <p style="margin-left:-810px;margin-top:-100px;font-weight: bold;"><img src="../../../Uploads/2wm.png" style="width:150px;height: 150px;"/><br/>扫二维码查更多信息</p>
-        <p style="font-weight: bold;">注意：持证人于有效期满前90日内申请审验及延续，在规定时间内未审验延续者，证书自动失效。</p>
+        <!-- <p style="font-weight: bold;">注意：持证人于有效期满前90日内申请审验及延续，在规定时间内未审验延续者，证书自动失效。</p> -->
       </div>
     </div>
     <div class="col-sm-2 col-sm-offset-10">
@@ -61,12 +62,7 @@
     </div>
   </div>
 </div>
-<footer>
-  <nav>
-      <p style="text-align: center;">Copyright xxx Gan su Meteorological Society</p>
-      <p style="text-align: center;">甘肃省气象学会 &copy;版权所有<p>
-  </nav>
-</footer>
+
 </body>
 </html>
 <script type="text/javascript">

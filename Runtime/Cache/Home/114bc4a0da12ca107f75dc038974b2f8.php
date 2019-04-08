@@ -3,18 +3,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 	<title>用户中心</title>
-	<script type="text/javascript" src="http://localhost/Application/Home/Public/js/jquery-3.1.1.min.js"></script>
-  <script src="http://localhost/Application/Home/Public/js/jquery.slimscroll.min.js"></script> 
-  <script type="text/javascript" src="http://localhost/Application/Home/Public/bootstrap/js/bootstrap.min.js"></script>
-  <script  src="http://localhost/Application/Home/Public/js/jquery-validate.js"></script>
- <script  src="http://localhost/Application/Home/Public/js/users.js"></script>
-  <script  src="http://localhost/Application/Home/Public/js/validator.js"></script>
-  <script  src="http://localhost/Application/Home/Public/js/index.js"></script>
-  <script type="text/javascript" src="http://localhost/Application/Home/Public/js/jquery.my-modal.1.1.js"></script>
-  <link href="http://localhost/Application/Home/Public/css/validator.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="http://localhost/Application/Home/Public/bootstrap/css/bootstrap.min.css"/>
-  <link rel="stylesheet" type="text/css" href="http://localhost/Application/Home/Public/css/font-awesome.min.css"/>
-  <link rel="stylesheet" type="text/css" href="http://localhost/Application/Home/Public/css/jquery.my-modal.1.1.winStyle.css" />
+	<script type="text/javascript" src="http://localhost/bysj/Application/Home/Public/js/jquery-3.1.1.min.js"></script>
+  <script src="http://localhost/bysj/Application/Home/Public/js/jquery.slimscroll.min.js"></script> 
+  <script type="text/javascript" src="http://localhost/bysj/Application/Home/Public/bootstrap/js/bootstrap.min.js"></script>
+  <script  src="http://localhost/bysj/Application/Home/Public/js/jquery-validate.js"></script>
+ <script  src="http://localhost/bysj/Application/Home/Public/js/users.js"></script>
+  <script  src="http://localhost/bysj/Application/Home/Public/js/validator.js"></script>
+  <script  src="http://localhost/bysj/Application/Home/Public/js/index.js"></script>
+  <script type="text/javascript" src="http://localhost/bysj/Application/Home/Public/js/jquery.my-modal.1.1.js"></script>
+  <link href="http://localhost/bysj/Application/Home/Public/css/validator.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="http://localhost/bysj/Application/Home/Public/bootstrap/css/bootstrap.min.css"/>
+  <link rel="stylesheet" type="text/css" href="http://localhost/bysj/Application/Home/Public/css/font-awesome.min.css"/>
+  <link rel="stylesheet" type="text/css" href="http://localhost/bysj/Application/Home/Public/css/jquery.my-modal.1.1.winStyle.css" />
 </head>
 <body>
 <style>
@@ -45,7 +45,7 @@ a { text-decoration: none; }
   margin-top:20px;
 }
 .content{
-    width:800px;
+  width:800px;
 	height:800px;
 	overflow: hidden;
 	margin-left:0px;
@@ -108,7 +108,7 @@ a { text-decoration: none; }
 <nav class="navbar navbar-default" style="background-color: #29aae1;">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#" style="color:#fff;">甘肃省防雷装置检测专业技术人员能力评价管理系统</a>
+      <a class="navbar-brand" href="#" style="color:#fff;">考试管理系统</a>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
@@ -142,7 +142,7 @@ a { text-decoration: none; }
                 <div class="input-group row">
                     <div class="col-sm-12 big-photo">
                       <div id="preview1">
-                            <img id="imghead1" border="0" src="http://localhost/Application/Home/Public/images/photo_icon.png" width="50" height="50"  onclick="$('#previewImg1').click();">
+                            <img id="imghead1" border="0" src="http://localhost/bysj/Application/Home/Public/images/photo_icon.png" width="50" height="50"  onclick="$('#previewImg1').click();">
                          </div>         
                         <input type="file" onchange="previewImage(this,1)" style="display: none;" id="previewImg1">
                     </div>
@@ -158,7 +158,7 @@ a { text-decoration: none; }
                 <div class="input-group row">
                     <div class="col-sm-12 big-photo">
                       <div id="preview2">
-                            <img id="imghead" border="0" src="http://localhost/Application/Home/Public/images/photo_icon.png" width="50" height="50"  onclick="$('#previewImg2').click();">
+                            <img id="imghead" border="0" src="http://localhost/bysj/Application/Home/Public/images/photo_icon.png" width="50" height="50"  onclick="$('#previewImg2').click();">
                          </div>         
                         <input type="file" onchange="previewImage(this,2)" style="display: none;" id="previewImg2">
                     </div>
@@ -174,7 +174,7 @@ a { text-decoration: none; }
                 <div class="input-group row">
                     <div class="col-sm-12 big-photo">
                       <div id="preview3">
-                            <img id="imghead3" border="0" src="http://localhost/Application/Home/Public/images/photo_icon.png" width="50" height="50"  onclick="$('#previewImg3').click();">
+                            <img id="imghead3" border="0" src="http://localhost/bysj/Application/Home/Public/images/photo_icon.png" width="50" height="50"  onclick="$('#previewImg3').click();">
                          </div>         
                         <input type="file" onchange="previewImage(this,3)" style="display: none;" id="previewImg3">
                     </div>
@@ -190,7 +190,7 @@ a { text-decoration: none; }
                 <div class="input-group row">
                     <div class="col-sm-12 big-photo">
                       <div id="preview4">
-                            <img id="imghead4" border="0" src="http://localhost/Application/Home/Public/images/photo_icon.png" width="50" height="50"  onclick="$('#previewImg4').click();">
+                            <img id="imghead4" border="0" src="http://localhost/bysj/Application/Home/Public/images/photo_icon.png" width="50" height="50"  onclick="$('#previewImg4').click();">
                          </div>         
                         <input type="file" onchange="previewImage(this,4)" style="display: none;" id="previewImg4">
                     </div>
@@ -206,7 +206,7 @@ a { text-decoration: none; }
                 <div class="input-group row">
                     <div class="col-sm-12 big-photo">
                       <div id="preview5">
-                            <img id="imghead5" border="0" src="http://localhost/Application/Home/Public/images/photo_icon.png" width="50" height="50"  onclick="$('#previewImg5').click();">
+                            <img id="imghead5" border="0" src="http://localhost/bysj/Application/Home/Public/images/photo_icon.png" width="50" height="50"  onclick="$('#previewImg5').click();">
                          </div>         
                         <input type="file" onchange="previewImage(this,5)" style="display: none;" id="previewImg5">
                     </div>
@@ -222,7 +222,7 @@ a { text-decoration: none; }
                 <div class="input-group row">
                     <div class="col-sm-12 big-photo">
                       <div id="preview6">
-                            <img id="imghead6" border="0" src="http://localhost/Application/Home/Public/images/photo_icon.png" width="50" height="50"  onclick="$('#previewImg6').click();">
+                            <img id="imghead6" border="0" src="http://localhost/bysj/Application/Home/Public/images/photo_icon.png" width="50" height="50"  onclick="$('#previewImg6').click();">
                          </div>         
                         <input type="file" onchange="previewImage(this,6)" style="display: none;" id="previewImg6">
                     </div>
@@ -601,12 +601,7 @@ a { text-decoration: none; }
   </div>
   </div>
   </div>
-<!--    <footer>
-  <nav class="navbar text-center navbar-fixed-bottom">
-      Copyright xxx Gan su Meteorological Society<br>
-      甘肃省气象学会 &copy;版权所有
-  </nav>
-</footer> -->
+
 <script>
 $(function(){
 	$('#hebtn').click(function(){

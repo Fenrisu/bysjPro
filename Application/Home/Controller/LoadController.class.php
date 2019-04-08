@@ -91,22 +91,7 @@ class LoadController extends Controller {
 			$post_address=I('post.ecode');//邮编
 			$tel_num=I('post.tel_num');//固定电话
 			$mail=I('post.email');
-			//照片重命名
-			//$image = new \Think\Image();
-			//$n1=$id_card.'/'.$real_account."照片";
-			//$n2=$id_card.'/'.$real_account."身份证正面";
-			//$n3=$id_card.'/'.$real_account."身份证背面";
-			//$n4=$id_card.'/'.$real_account."毕业证";
-			//$n5=$id_card.'/'.$real_account."职称证";
-			//$n6=$id_card.'/'.$real_account."从业社保证明";
-			//$image->open('./1.jpg');$image->save('./2.jpg');
-			//$image->open('./'.$n1.'.jpg');$image->save('./1.jpg');
-			//$image->open('./'.$n2.'.jpg');$image->save('./2.jpg');
-			//$image->open('./'.$n3.'.jpg');$image->save('./3.jpg');
-			//$image->open('./'.$n4.'.jpg');$image->save('./4.jpg');
-			//$image->open('./'.$n5.'.jpg');$image->save('./5.jpg');
-			//$image->open('./'.$n6.'.jpg');$image->save('./6.jpg');
-			//
+			
 			if($profession=="无职称"&&$major=="非相关专业"&&$education=="中专以下"){
 				$this->error("您的职称、专业、学历均达不到要求！");
 			}if($member){

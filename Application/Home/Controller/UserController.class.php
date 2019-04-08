@@ -23,12 +23,12 @@ class UserController extends BaseController {
 				// var_dump($zhuyiAll);exit();
 			}
 		}else{
-			$zhuyiAll = $zhuyi->select()[0];
+			$zhuyiAll = $zhuyi->select();
 			$this->assign('zhuyiAll', $zhuyiAll);
 			//var_dump($zhuyiAll);exit();
 		}
 		
-			//var_dump($zhuyiAll2);exit();
+			//var_dump($zhuyiAll);exit();
 			
 		
 		//var_dump($zhuyiAll);exit();
@@ -48,17 +48,17 @@ class UserController extends BaseController {
 		   //notice最新日期
 		$indexx=M('user');
 		$datemaxx=$indexx->where(array('account'=>I('session.account')))->max('id');    //通知公告的显示
-		$newdatee=$indexx->where(array('id'=>$datemaxx,'account'=>I('session.account')))->select();//user最新日期
-		if(!$newdatee[0][date])
+		$newuserdate=$indexx->where(array('id'=>$datemaxx,'account'=>I('session.account')))->select();//user最新日期
+		if(!$newuserdate[0][date])
 		{
 			$data = array(
 	        'date'=>$newdate[0][date],
 	        'subject'=>$newdate[0][subject],
-			'flag' =>$newdatee[0][flag]
+			'flag' =>$newuserdate[0][flag]
 			);
 		}
 		else{
-			if($newdatee[0][date]==$newdate[0][date])
+			if($newuserdate[0][date]==$newdate[0][date])
 			{
 				$data = array(
 	        'date'=>$newdate[0][date],
@@ -73,14 +73,8 @@ class UserController extends BaseController {
 			'flag' =>"0"
 	                 );
 			}
-
 		
-			
-			
 		}
-		
-		
-			
 
 		
 		$this->assign('subject', $data[subject]);
@@ -88,10 +82,9 @@ class UserController extends BaseController {
 	    $this->assign('baoming',$data[flag]);
 		//var_dump($data[flag]);
 		$this->assign('date', $data[date]);
-		$this->assign('date', $data[date]);
 		//报名按钮
 		if(IS_POST){
-			if(!$newdatee[0][pass]){
+			if(!$newuserdate[0][pass]){
 				$this->error("您还未通过审核");
 			}else{
 			$date1 = array(
@@ -210,7 +203,7 @@ class UserController extends BaseController {
 		    $upload = new \Think\Upload();// 实例化上传类
             $upload->maxSize   =     8145728 ;// 设置附件上传大小
             $upload->exts      =     array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
-            $upload->rootPath  =     './Upsloads/'; // 设置附件上传根目录
+            $upload->rootPath  =     './Uploads/'; // 设置附件上传根目录
             $upload->savePath  =     ''; // 设置附件上传（子）目录
 		    $upload->subName   =    I('session.id_card');
 		    $upload->replace   =    'true';
@@ -220,30 +213,44 @@ class UserController extends BaseController {
 			//if(!$exts){
 				//$this->success("上传文件不合法，请上传图片");
 			 //}
-		    if($_FILES['upload1']){
-			   $upload->saveName =     '1';
-			    $info   =   $upload->uploadOne($_FILES['upload1']);
+			$flag=0;
+			if($_FILES['upload1']){
+			   	$upload->saveName =     '1';
+				$info   =   $upload->uploadOne($_FILES['upload1']);
+				$flag=1;
 		   }
-		   if($_FILES['upload2']){
+		   	elseif($_FILES['upload2']){
 			   $upload->saveName =     '2';
 			   $info   =   $upload->uploadOne($_FILES['upload2']);
+			   $flag=1;
 		   }
-		   if($_FILES['upload3']){
+		   	elseif($_FILES['upload3']){
 			   $upload->saveName =     '3';
 			   $info   =   $upload->uploadOne($_FILES['upload3']);
+			   $flag=1;
 		   }
-		   if($_FILES['upload4']){
+		   	elseif($_FILES['upload4']){
 			   $upload->saveName =     '4';
 			   $info   =   $upload->uploadOne($_FILES['upload4']);
+			   $flag=1;
 		   }
-		   if($_FILES['upload5']){
+		   	elseif($_FILES['upload5']){
 			   $upload->saveName =     '5';
 			   $info   =   $upload->uploadOne($_FILES['upload5']);
+			   $flag=1;
 		   }
-		   if($_FILES['upload6']){
+		   	elseif($_FILES['upload6']){
 			   $upload->saveName =     '6';
 			   $info   =   $upload->uploadOne($_FILES['upload6']);
+			   $flag=1;
 		   }
+
+		 //   	if(!$info){
+			// 	$this->error($upload->getError());
+			// }
+			// else{
+			// 	$this->success('上传成功');
+			// }
 			foreach($info as $file){
                 $bigimg =$file['savepath'];
 			}
@@ -305,7 +312,7 @@ class UserController extends BaseController {
 			'phone'=>I('post.telephone'),
 			//'post_address'=>I('post.post_address'),
 			'mail'=>I('post.email'),
-			'addr'=>I('post.address')			
+			'addr'=>I('post.address')
 			);
 		
 		
@@ -378,7 +385,8 @@ class UserController extends BaseController {
 	$max=$card->field("max(id)")->where(array('account'=>I('session.account')))->select()[0]['max(id)'];
 	$flag=$card->where(array('id'=>$max))->select()[0][flag];
 	$pass=$card->where(array('id'=>$max))->select()[0][pass];
-	if($flag==1&&$pass==1)
+	$seat_num=$card->where(array('id'=>$max))->select()[0][seat_num];
+	if($flag==1&&$pass==1&&$seat_num)
 	{
 		$date=$card->where(array('id'=>$max))->select()[0][date];
 		$sex=$card->where(array('id'=>$max))->select()[0][sex];
@@ -407,7 +415,7 @@ class UserController extends BaseController {
 	}
 	else{
 		//exit('<script>alert(\'未报名 !\')</script>');
-		$this->error("未报名",U('User/baoming'));
+		$this->error("还未安排考场！",U('User/baoming'));
 	}
 		
 	}

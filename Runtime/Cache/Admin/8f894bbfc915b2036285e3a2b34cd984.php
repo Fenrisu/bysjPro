@@ -4,12 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 	<title>管理员登录</title>
-	<script type="text/javascript" src="http://localhost/Application/Admin/Public/js/jquery-3.1.1.min.js"></script>
-  <script type="text/javascript" src="http://localhost/Application/Admin/Public/bootstrap/js/bootstrap.min.js"></script>
-  <script src="http://localhost/Application/Admin/Public/js/verificationNumbers.js" tppabs="js/verificationNumbers.js"></script>
-  <script src="http://localhost/Application/Admin/Public/js/Particleground.js" tppabs="js/Particleground.js"></script>
-  <script type="text/javascript" src="http://localhost/Application/Admin/Public/js/jquery-validate.js"></script>
-  <link rel="stylesheet" type="text/css" href="http://localhost/Application/Admin/Public/css/style1.css" tppabs="css/style.css" />
+	<script type="text/javascript" src="http://localhost/bysj/Application/Admin/Public/js/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="http://localhost/bysj/Application/Admin/Public/bootstrap/js/bootstrap.min.js"></script>
+  <script src="http://localhost/bysj/Application/Admin/Public/js/verificationNumbers.js" tppabs="js/verificationNumbers.js"></script>
+  <script src="http://localhost/bysj/Application/Admin/Public/js/Particleground.js" tppabs="js/Particleground.js"></script>
+  <script type="text/javascript" src="http://localhost/bysj/Application/Admin/Public/js/jquery-validate.js"></script>
+  <link rel="stylesheet" type="text/css" href="http://localhost/bysj/Application/Admin/Public/css/style1.css" tppabs="css/style.css" />
 </head>
 <style>
 *{
@@ -63,7 +63,7 @@ $(document).ready(function() {
 </script>
 <body>
 <header>
-<p>甘肃省防雷装置检测专业技术人员能力评价管理系统<span style="float:right;margin-right:100px;">管理员登录</span></p>
+<p>考试管理系统<span style="float:right;margin-right:100px;">管理员登录</span></p>
 </header>
   <!--<div class="main_load">
     <form method="post" action="">
@@ -98,11 +98,6 @@ $(document).ready(function() {
  </dd>
  </form>
 </dl>
-<footer>
-  <nav>
-      <p style="text-align: center;">Copyright xxx Gan su Meteorological Society</p>
-      <p style="text-align: center;">甘肃省气象学会 &copy;版权所有<p>
-  </nav>
-</footer>
+
 </body>
 </html>

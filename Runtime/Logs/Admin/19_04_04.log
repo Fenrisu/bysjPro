@@ -1,0 +1,1422 @@
+[ 2019-04-04T09:05:13+08:00 ] ::1 /bysj/index.php/admin/load/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-04T09:05:57+08:00 ] ::1 /bysj/index.php/Admin/Load/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0550s ]
+SQL: SELECT * FROM `admin` WHERE `username` = 'admin' AND `password` = 'fa9711f7d4b4eba919745f6e27127575' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-04T09:05:58+08:00 ] ::1 /bysj/index.php/Admin/Index/shenhe.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user` WHERE `date` LIKE '%%' AND `real_account` LIKE '%%'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: pass H:\phpStudy\WWW\bysj\Application\Admin\Controller\IndexController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 556 行.
+NOTIC: [2] Illegal string offset 'real_account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 557 行.
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 560 行.
+NOTIC: [2] Illegal string offset 'pass' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 564 行.
+NOTIC: [2] Illegal string offset 'pass' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 564 行.
+NOTIC: [2] Illegal string offset 'reason' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 565 行.
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 567 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-04T09:06:17+08:00 ] ::1 /bysj/index.php/Admin/Index/checkuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT MAX(id) AS tp_max FROM `user` WHERE `account` = 'zhouyi1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `id` = 11  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-04-04T09:09:07+08:00 ] ::1 /bysj/index.php/Admin/Index/sendinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zhuyi` [ RunTime:0.0030s ]
+SQL: SELECT MAX(id) AS tp_max FROM `zhuyi` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zhuyi`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-04T09:09:08+08:00 ] ::1 /bysj/index.php/Admin/Index/infolist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zhuyi` [ RunTime:0.0020s ]
+SQL: SELECT MAX(id) AS tp_max FROM `zhuyi` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zhuyi`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-04-04T09:09:21+08:00 ] ::1 /bysj/index.php/Admin/Exammanage/kaoshilist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0410s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-04T09:09:25+08:00 ] ::1 /bysj/index.php/Admin/Examseat/anpaiks.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-04T09:09:27+08:00 ] ::1 /bysj/index.php/Admin/Examseat/anpaizc.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0450s ]
+SQL: SELECT MAX(id) AS tp_max FROM `notice` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `notice` WHERE `id` = 16  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 39 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `date` = 201906 AND `pass` = 1 AND `flag` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant year - assumed 'year' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\8e722e097cd28ce00bb75e87106e62df.php 第 527 行.
+NOTIC: [8] Use of undefined constant month - assumed 'month' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\8e722e097cd28ce00bb75e87106e62df.php 第 528 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-04-04T09:09:33+08:00 ] ::1 /bysj/index.php/Admin/Exammanage/chengji.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-04-04T09:09:36+08:00 ] ::1 /bysj/index.php/Admin/Exammanage/chaxunchengji.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Exammanage - assumed 'Exammanage' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\c6a36792e5cc35af69bcf0a92b21d121.php 第 525 行.
+NOTIC: [8] Use of undefined constant chaxunchengji - assumed 'chaxunchengji' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\c6a36792e5cc35af69bcf0a92b21d121.php 第 525 行.
+NOTIC: [2] Division by zero H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\c6a36792e5cc35af69bcf0a92b21d121.php 第 525 行.
+NOTIC: [8] Undefined variable: year H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\c6a36792e5cc35af69bcf0a92b21d121.php 第 529 行.
+NOTIC: [8] Undefined variable: month H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\c6a36792e5cc35af69bcf0a92b21d121.php 第 532 行.
+NOTIC: [8] Undefined variable: userInfo H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\c6a36792e5cc35af69bcf0a92b21d121.php 第 546 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-04T09:09:39+08:00 ] ::1 /bysj/index.php/Admin/Exammanage/kaoshilist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-04T09:09:42+08:00 ] ::1 /bysj/index.php/Admin/Index/resetpwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-04T09:15:49+08:00 ] ::1 /bysj/index.php/Admin/Index/sendinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zhuyi` [ RunTime:0.0050s ]
+SQL: SELECT MAX(id) AS tp_max FROM `zhuyi` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zhuyi`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-04T09:15:50+08:00 ] ::1 /bysj/index.php/Admin/Index/infolist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zhuyi` [ RunTime:0.0030s ]
+SQL: SELECT MAX(id) AS tp_max FROM `zhuyi` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zhuyi`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-04-04T09:15:51+08:00 ] ::1 /bysj/index.php/Admin/Index/infolist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zhuyi` [ RunTime:0.0050s ]
+SQL: SELECT MAX(id) AS tp_max FROM `zhuyi` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zhuyi`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-04-04T09:15:52+08:00 ] ::1 /bysj/index.php/Admin/Index/infolist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zhuyi` [ RunTime:0.0060s ]
+SQL: SELECT MAX(id) AS tp_max FROM `zhuyi` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zhuyi`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-04-04T09:15:52+08:00 ] ::1 /bysj/index.php/Admin/Index/infolist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zhuyi` [ RunTime:0.0040s ]
+SQL: SELECT MAX(id) AS tp_max FROM `zhuyi` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zhuyi`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-04-04T09:31:52+08:00 ] ::1 /bysj/index.php/Admin/Examseat/anpaiks.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-04-04T09:31:55+08:00 ] ::1 /bysj/index.php/Admin/Examseat/anpaizc.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0040s ]
+SQL: SELECT MAX(id) AS tp_max FROM `notice` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `notice` WHERE `id` = 16  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 39 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `date` = 201906 AND `pass` = 1 AND `flag` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant year - assumed 'year' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\8e722e097cd28ce00bb75e87106e62df.php 第 527 行.
+NOTIC: [8] Use of undefined constant month - assumed 'month' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\8e722e097cd28ce00bb75e87106e62df.php 第 528 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-04T09:33:23+08:00 ] ::1 /bysj/index.php/Admin/Examseat/anpaiks.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-04T09:33:25+08:00 ] ::1 /bysj/index.php/Admin/Examseat/anpaizc.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0030s ]
+SQL: SELECT MAX(id) AS tp_max FROM `notice` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `notice` WHERE `id` = 16  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 39 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `date` = 201906 AND `pass` = 1 AND `flag` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant year - assumed 'year' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\8e722e097cd28ce00bb75e87106e62df.php 第 527 行.
+NOTIC: [8] Use of undefined constant month - assumed 'month' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\8e722e097cd28ce00bb75e87106e62df.php 第 528 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-04-04T10:02:47+08:00 ] ::1 /bysj/index.php/Admin/Index/resetpwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-04-04T10:02:49+08:00 ] ::1 /bysj/index.php/Admin/Index/resetpwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2019-04-04T10:02:51+08:00 ] ::1 /bysj/index.php/Admin/Index/infolist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zhuyi` [ RunTime:0.0040s ]
+SQL: SELECT MAX(id) AS tp_max FROM `zhuyi` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zhuyi`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-04T10:02:53+08:00 ] ::1 /bysj/index.php/Admin/Index/resetpwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-04-04T10:05:02+08:00 ] ::1 /bysj/index.php/Admin/Index/infolist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zhuyi` [ RunTime:0.0040s ]
+SQL: SELECT MAX(id) AS tp_max FROM `zhuyi` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zhuyi`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-04-04T10:05:03+08:00 ] ::1 /bysj/index.php/Admin/Index/sendinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zhuyi` [ RunTime:0.0030s ]
+SQL: SELECT MAX(id) AS tp_max FROM `zhuyi` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zhuyi`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-04T10:05:04+08:00 ] ::1 /bysj/index.php/Admin/Index/shenhe.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `user` WHERE `date` LIKE '%%' AND `real_account` LIKE '%%'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: pass H:\phpStudy\WWW\bysj\Application\Admin\Controller\IndexController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 556 行.
+NOTIC: [2] Illegal string offset 'real_account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 557 行.
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 560 行.
+NOTIC: [2] Illegal string offset 'pass' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 564 行.
+NOTIC: [2] Illegal string offset 'pass' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 564 行.
+NOTIC: [2] Illegal string offset 'reason' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 565 行.
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 567 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-04-04T10:05:08+08:00 ] ::1 /bysj/index.php/Admin/Index/shenhe.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `user` WHERE `date` LIKE '%%' AND `real_account` LIKE '%%'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: pass H:\phpStudy\WWW\bysj\Application\Admin\Controller\IndexController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 556 行.
+NOTIC: [2] Illegal string offset 'real_account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 557 行.
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 560 行.
+NOTIC: [2] Illegal string offset 'pass' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 564 行.
+NOTIC: [2] Illegal string offset 'pass' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 564 行.
+NOTIC: [2] Illegal string offset 'reason' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 565 行.
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 567 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-04T10:05:09+08:00 ] ::1 /bysj/index.php/Admin/Index/shenhe.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `user` WHERE `date` LIKE '%%' AND `real_account` LIKE '%%'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: pass H:\phpStudy\WWW\bysj\Application\Admin\Controller\IndexController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 556 行.
+NOTIC: [2] Illegal string offset 'real_account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 557 行.
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 560 行.
+NOTIC: [2] Illegal string offset 'pass' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 564 行.
+NOTIC: [2] Illegal string offset 'pass' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 564 行.
+NOTIC: [2] Illegal string offset 'reason' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 565 行.
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 567 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-04-04T10:05:10+08:00 ] ::1 /bysj/index.php/Admin/Index/shenhe.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `user` WHERE `date` LIKE '%%' AND `real_account` LIKE '%%'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: pass H:\phpStudy\WWW\bysj\Application\Admin\Controller\IndexController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 556 行.
+NOTIC: [2] Illegal string offset 'real_account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 557 行.
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 560 行.
+NOTIC: [2] Illegal string offset 'pass' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 564 行.
+NOTIC: [2] Illegal string offset 'pass' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 564 行.
+NOTIC: [2] Illegal string offset 'reason' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 565 行.
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 567 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-04T10:05:10+08:00 ] ::1 /bysj/index.php/Admin/Index/shenhe.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `user` WHERE `date` LIKE '%%' AND `real_account` LIKE '%%'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: pass H:\phpStudy\WWW\bysj\Application\Admin\Controller\IndexController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 556 行.
+NOTIC: [2] Illegal string offset 'real_account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 557 行.
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 560 行.
+NOTIC: [2] Illegal string offset 'pass' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 564 行.
+NOTIC: [2] Illegal string offset 'pass' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 564 行.
+NOTIC: [2] Illegal string offset 'reason' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 565 行.
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 567 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-04-04T10:05:11+08:00 ] ::1 /bysj/index.php/Admin/Index/shenhe.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `user` WHERE `date` LIKE '%%' AND `real_account` LIKE '%%'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: pass H:\phpStudy\WWW\bysj\Application\Admin\Controller\IndexController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 556 行.
+NOTIC: [2] Illegal string offset 'real_account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 557 行.
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 560 行.
+NOTIC: [2] Illegal string offset 'pass' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 564 行.
+NOTIC: [2] Illegal string offset 'pass' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 564 行.
+NOTIC: [2] Illegal string offset 'reason' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 565 行.
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 567 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-04T10:05:11+08:00 ] ::1 /bysj/index.php/Admin/Index/shenhe.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user` WHERE `date` LIKE '%%' AND `real_account` LIKE '%%'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: pass H:\phpStudy\WWW\bysj\Application\Admin\Controller\IndexController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 556 行.
+NOTIC: [2] Illegal string offset 'real_account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 557 行.
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 560 行.
+NOTIC: [2] Illegal string offset 'pass' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 564 行.
+NOTIC: [2] Illegal string offset 'pass' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 564 行.
+NOTIC: [2] Illegal string offset 'reason' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 565 行.
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 567 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-04T10:05:12+08:00 ] ::1 /bysj/index.php/Admin/Index/shenhe.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user` WHERE `date` LIKE '%%' AND `real_account` LIKE '%%'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: pass H:\phpStudy\WWW\bysj\Application\Admin\Controller\IndexController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 556 行.
+NOTIC: [2] Illegal string offset 'real_account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 557 行.
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 560 行.
+NOTIC: [2] Illegal string offset 'pass' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 564 行.
+NOTIC: [2] Illegal string offset 'pass' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 564 行.
+NOTIC: [2] Illegal string offset 'reason' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 565 行.
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 567 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-04T14:14:00+08:00 ] ::1 /bysj/index.php/Admin/Index/infolist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zhuyi` [ RunTime:0.0030s ]
+SQL: SELECT MAX(id) AS tp_max FROM `zhuyi` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zhuyi`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-04T14:14:02+08:00 ] ::1 /bysj/index.php/Admin/Exammanage/kaoshilist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-04-04T14:14:06+08:00 ] ::1 /bysj/index.php/Admin/Examseat/anpaiks.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-04T14:26:16+08:00 ] ::1 /bysj/index.php/Admin/Index/shenhe.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `user` WHERE `date` LIKE '%%' AND `real_account` LIKE '%%'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: pass H:\phpStudy\WWW\bysj\Application\Admin\Controller\IndexController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 556 行.
+NOTIC: [2] Illegal string offset 'real_account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 557 行.
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 560 行.
+NOTIC: [2] Illegal string offset 'pass' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 564 行.
+NOTIC: [2] Illegal string offset 'pass' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 564 行.
+NOTIC: [2] Illegal string offset 'reason' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 565 行.
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 567 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-04-04T14:34:39+08:00 ] ::1 /bysj/index.php/Admin/Index/shenhe.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `user` WHERE `date` LIKE '%%' AND `real_account` LIKE '%%'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: pass H:\phpStudy\WWW\bysj\Application\Admin\Controller\IndexController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 556 行.
+NOTIC: [2] Illegal string offset 'real_account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 557 行.
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 560 行.
+NOTIC: [2] Illegal string offset 'pass' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 564 行.
+NOTIC: [2] Illegal string offset 'pass' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 564 行.
+NOTIC: [2] Illegal string offset 'reason' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 565 行.
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 567 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-04-04T14:34:41+08:00 ] ::1 /bysj/index.php/Admin/Index/shenhe.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `user` WHERE `date` LIKE '%%' AND `real_account` LIKE '%%'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: pass H:\phpStudy\WWW\bysj\Application\Admin\Controller\IndexController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 556 行.
+NOTIC: [2] Illegal string offset 'real_account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 557 行.
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 560 行.
+NOTIC: [2] Illegal string offset 'pass' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 564 行.
+NOTIC: [2] Illegal string offset 'pass' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 564 行.
+NOTIC: [2] Illegal string offset 'reason' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 565 行.
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 567 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2019-04-04T14:34:43+08:00 ] ::1 /bysj/index.php/Admin/Index/checkuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0050s ]
+SQL: SELECT MAX(id) AS tp_max FROM `user` WHERE `account` = 'zhouyi5' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `id` = 12  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2019-04-04T14:34:47+08:00 ] ::1 /bysj/index.php/Admin/Index/tijiao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0100s ]
+SQL: SELECT MAX(id) AS tp_max FROM `user` WHERE `account` = 'zhouyi5' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `user` SET `pass`='1' WHERE `id` = 12 AND `account` = 'zhouyi5' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2019-04-04T14:34:48+08:00 ] ::1 /bysj/index.php/Admin/Index/shenhe.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `user` WHERE `date` LIKE '%%' AND `real_account` LIKE '%%'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: pass H:\phpStudy\WWW\bysj\Application\Admin\Controller\IndexController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002501s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002501s ]
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 556 行.
+NOTIC: [2] Illegal string offset 'real_account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 557 行.
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 560 行.
+NOTIC: [2] Illegal string offset 'pass' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 564 行.
+NOTIC: [2] Illegal string offset 'pass' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 564 行.
+NOTIC: [2] Illegal string offset 'reason' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 565 行.
+NOTIC: [2] Illegal string offset 'account' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\e17b5730c9867d0dd9d3bf627a20efb7.php 第 567 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2019-04-04T14:35:13+08:00 ] ::1 /bysj/index.php/Admin/Exammanage/kaoshilist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-04-04T14:35:14+08:00 ] ::1 /bysj/index.php/Admin/Index/infolist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `zhuyi` [ RunTime:0.0100s ]
+SQL: SELECT MAX(id) AS tp_max FROM `zhuyi` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zhuyi`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-04-04T14:35:17+08:00 ] ::1 /bysj/index.php/Admin/Examseat/anpaizc.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0075s ]
+SQL: SELECT MAX(id) AS tp_max FROM `notice` LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `notice` WHERE `id` = 16  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 39 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `date` = 201906 AND `pass` = 1 AND `flag` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant year - assumed 'year' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\8e722e097cd28ce00bb75e87106e62df.php 第 527 行.
+NOTIC: [8] Use of undefined constant month - assumed 'month' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\8e722e097cd28ce00bb75e87106e62df.php 第 528 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-04-04T14:35:49+08:00 ] ::1 /bysj/index.php/Admin/Examseat/anpaiks.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-04-04T14:35:51+08:00 ] ::1 /bysj/index.php/Admin/Examseat/anpaiks.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2019-04-04T14:35:53+08:00 ] ::1 /bysj/index.php/Admin/Examseat/anpaizc.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `notice` [ RunTime:0.0100s ]
+SQL: SELECT MAX(id) AS tp_max FROM `notice` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `notice` WHERE `id` = 16  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 39 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `date` = 201906 AND `pass` = 1 AND `flag` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant year - assumed 'year' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\8e722e097cd28ce00bb75e87106e62df.php 第 527 行.
+NOTIC: [8] Use of undefined constant month - assumed 'month' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\8e722e097cd28ce00bb75e87106e62df.php 第 528 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2019-04-04T14:36:20+08:00 ] ::1 /bysj/index.php/Admin/Examseat/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `date` = 201906 AND `pass` = 1 AND `flag` = 1 LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `user` WHERE `date` = 201906 AND `pass` = 1 AND `flag` = 1  [ RunTime:0.0000s ]
+SQL: UPDATE `user` SET `group`='1',`seat_num`='01' WHERE `date` = 201906 AND `id_card` = '510107199511031278' [ RunTime:0.0000s ]
+SQL: UPDATE `user` SET `group`='1',`seat_num`='02' WHERE `date` = 201906 AND `id_card` = '510107199511031274' [ RunTime:0.0000s ]
+SQL: UPDATE `user` SET `group`='1',`seat_num`='03' WHERE `date` = 201906 AND `id_card` = '510107199511031279' [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0075s ]
+SQL: SELECT MAX(id) AS tp_max FROM `exam` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `time` FROM `exam` WHERE `id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 3 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 249 行.
+NOTIC: [8] Undefined offset: 3 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 3 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 4 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 249 行.
+NOTIC: [8] Undefined offset: 4 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 4 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 5 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 249 行.
+NOTIC: [8] Undefined offset: 5 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 5 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 6 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 249 行.
+NOTIC: [8] Undefined offset: 6 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 6 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 7 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 249 行.
+NOTIC: [8] Undefined offset: 7 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 7 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 8 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 249 行.
+NOTIC: [8] Undefined offset: 8 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 8 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 9 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 249 行.
+NOTIC: [8] Undefined offset: 9 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 9 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 10 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 249 行.
+NOTIC: [8] Undefined offset: 10 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 10 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 11 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 249 行.
+NOTIC: [8] Undefined offset: 11 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 11 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 12 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 249 行.
+NOTIC: [8] Undefined offset: 12 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 12 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 13 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 249 行.
+NOTIC: [8] Undefined offset: 13 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 13 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 14 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 249 行.
+NOTIC: [8] Undefined offset: 14 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 14 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 15 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 249 行.
+NOTIC: [8] Undefined offset: 15 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 15 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 16 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 249 行.
+NOTIC: [8] Undefined offset: 16 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 16 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 17 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 249 行.
+NOTIC: [8] Undefined offset: 17 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 17 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 18 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 249 行.
+NOTIC: [8] Undefined offset: 18 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 18 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 19 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 249 行.
+NOTIC: [8] Undefined offset: 19 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 19 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 20 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 249 行.
+NOTIC: [8] Undefined offset: 20 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 20 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 21 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 249 行.
+NOTIC: [8] Undefined offset: 21 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 21 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 22 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 249 行.
+NOTIC: [8] Undefined offset: 22 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 22 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 23 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 249 行.
+NOTIC: [8] Undefined offset: 23 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 23 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 24 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 249 行.
+NOTIC: [8] Undefined offset: 24 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 24 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 25 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 249 行.
+NOTIC: [8] Undefined offset: 25 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 25 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 26 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 249 行.
+NOTIC: [8] Undefined offset: 26 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 26 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 27 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 249 行.
+NOTIC: [8] Undefined offset: 27 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 27 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 28 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 249 行.
+NOTIC: [8] Undefined offset: 28 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 28 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 255 行.
+NOTIC: [8] Undefined offset: 29 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 249 行.
+NOTIC: [8] Undefined offset: 29 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 252 行.
+NOTIC: [8] Undefined offset: 29 H:\phpStudy\WWW\bysj\Application\Admin\Controller\ExamseatController.class.php 第 255 行.
+SQL: SELECT * FROM `user`  [ RunTime:0.0025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2019-04-04T14:37:29+08:00 ] ::1 /bysj/index.php/Admin/Exammanage/chengji.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2019-04-04T14:37:46+08:00 ] ::1 /bysj/index.php/Admin/Index/sendinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `zhuyi` [ RunTime:0.0050s ]
+SQL: SELECT MAX(id) AS tp_max FROM `zhuyi` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zhuyi`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2019-04-04T14:37:53+08:00 ] ::1 /bysj/index.php/Admin/Exammanage/chaxunchengji.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Exammanage - assumed 'Exammanage' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\c6a36792e5cc35af69bcf0a92b21d121.php 第 525 行.
+NOTIC: [8] Use of undefined constant chaxunchengji - assumed 'chaxunchengji' H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\c6a36792e5cc35af69bcf0a92b21d121.php 第 525 行.
+NOTIC: [2] Division by zero H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\c6a36792e5cc35af69bcf0a92b21d121.php 第 525 行.
+NOTIC: [8] Undefined variable: year H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\c6a36792e5cc35af69bcf0a92b21d121.php 第 529 行.
+NOTIC: [8] Undefined variable: month H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\c6a36792e5cc35af69bcf0a92b21d121.php 第 532 行.
+NOTIC: [8] Undefined variable: userInfo H:\phpStudy\WWW\bysj\Runtime\Cache\Admin\c6a36792e5cc35af69bcf0a92b21d121.php 第 546 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

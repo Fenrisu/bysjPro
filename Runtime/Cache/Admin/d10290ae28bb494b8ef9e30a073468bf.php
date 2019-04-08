@@ -4,11 +4,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>用户审核</title>
-  <link href="http://localhost/Application/Admin/Public/css/bootstrap.min.css" rel="stylesheet">
-  <script src="http://localhost/Application/Admin/Public/js/jquery-3.1.1.min.js"></script>
-  <script src="http://localhost/Application/Admin/Public/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="http://localhost/Application/Admin/Public/css/baguetteBox.min.css">
-  <link rel="stylesheet" href="http://localhost/Application/Admin/Public/css/gallery-clean.css">
+  <link href="http://localhost/bysj/Application/Admin/Public/css/bootstrap.min.css" rel="stylesheet">
+  <script src="http://localhost/bysj/Application/Admin/Public/js/jquery-3.1.1.min.js"></script>
+  <script src="http://localhost/bysj/Application/Admin/Public/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="http://localhost/bysj/Application/Admin/Public/css/baguetteBox.min.css">
+  <link rel="stylesheet" href="http://localhost/bysj/Application/Admin/Public/css/gallery-clean.css">
 </head>
 <style>
 .op{
@@ -27,7 +27,7 @@ img:hover{
 <nav class="navbar navbar-default" style="background-color: #29aae1;">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#" style="color:#fff;">甘肃省防雷专业技术人员资格</a>
+      <a class="navbar-brand" href="#" style="color:#fff;">考试资格审核</a>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
@@ -260,7 +260,7 @@ img:hover{
 </footer> -->
 </body>
 </html>
-<script type="text/javascript" src="http://localhost/Application/Admin/Public/js/baguetteBox.min.js"></script>
+<script type="text/javascript" src="http://localhost/bysj/Application/Admin/Public/js/baguetteBox.min.js"></script>
 <script type="text/javascript">
 $(function(){
   $("#why").hide()

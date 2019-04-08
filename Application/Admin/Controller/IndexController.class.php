@@ -211,24 +211,7 @@ $this->display();
 		$maxId = $User->where(array('account'=> $account))->max('id');
 		$UserInfo = $User->where(array('id'=> $maxId))->select()[0];
 		//$UserInfo['real_name'],$userInfo['id_card']
-		//新建照片
-		//$image = new \Think\Image();
-		   
-			//$n1= $UserInfo['id_card']."/".$UserInfo['real_account']."照片.jpg";
-			//var_dump(file_get_contents($n1));exit();
-			//$n2= '../../../Uploads/' .$UserInfo['id_card']."/".$UserInfo['real_account']."身份证正面.jpg";
-			//$n3= '../../../Uploads/' .$UserInfo['id_card']."/".$UserInfo['real_account']."身份证背面.jpg";
-			//$n4= '../../../Uploads/' .$UserInfo['id_card']."/".$UserInfo['real_account']."毕业证.jpg";
-			//$n5= '../../../Uploads/' .$UserInfo['id_card']."/".$UserInfo['real_account']."职称证.jpg";
-			//$n6= '../../../Uploads/' .$UserInfo['id_card']."/".$UserInfo['real_account']."从业社保证明.jpg";
-			//$info=$image->open("./Uploads/".$UserInfo['id_card']."/1.jpg")->save("./Uploads/".$UserInfo['id_card']."/2.jpg");var_dump($info);exit();
-			//$image->open($n2);//->save('./2.jpg');
-			//$image->open($n3);//->save('./3.jpg');
-			//$image->open($n4);//->save('./4.jpg');
-			//$image->open($n5);//->save('./5.jpg');
-			//$image->open($n6);//->save('./6.jpg');
-
-		//
+		
 		$src1="../../../Uploads/".$UserInfo['id_card']."/1.jpg";
 		$src2="../../../Uploads/".$UserInfo['id_card']."/2.jpg";
 		$src3="../../../Uploads/".$UserInfo['id_card']."/3.jpg";

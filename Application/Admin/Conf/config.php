@@ -2,6 +2,6 @@
 return array(
 	//'配置项'=>'配置值'
 	'TMPL_PARSE_STRING'=>array(
-	'__PUBLIC__'=>'http://'.$_SERVER['HTTP_HOST'].'/Application/Admin/Public',
+	'__PUBLIC__'=>'http://'.$_SERVER['HTTP_HOST'].'/bysj/Application/Admin/Public',
 	)
 );

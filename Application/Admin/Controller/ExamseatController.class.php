@@ -132,7 +132,7 @@ class ExamseatController extends Base2Controller
 				$studentCount++;
 			}
 
-			$seatInfo['title'][$i] = substr($examInfo[$i]['time'], 0, 4).'年防雷装置检测技术人员能力评价考试（'.substr($examInfo[$i]['time'], 4, 2).'月'.substr($examInfo[$i]['time'], 6, 2).'日）';
+			$seatInfo['title'][$i] = substr($examInfo[$i]['time'], 0, 4).'年考试（'.substr($examInfo[$i]['time'], 4, 2).'月'.substr($examInfo[$i]['time'], 6, 2).'日）';
 			// 第1场、group表示
 			$seatInfo['group'][$i]        = '第'.$examInfo[$i]['group'].'场';
 			$seatInfo['room_num'][$i]     = '考场号: '.$examInfo[$i]['room_num'];
@@ -282,7 +282,7 @@ class ExamseatController extends Base2Controller
 		$objPHPExcel->getActiveSheet()->getColumnDimension('G')->setWidth(16);
 		$objPHPExcel->getActiveSheet()->getColumnDimension('H')->setWidth(25);
 		$objPHPExcel->getActiveSheet()->setTitle('审核人员');
-		$objPHPExcel->getActiveSheet()->setCellValue('A'.strval(1), substr($subTime, 0, 4).'年'.substr($subTime, 4, 2).'月全省防雷装置检测资格审核表');
+		$objPHPExcel->getActiveSheet()->setCellValue('A'.strval(1), substr($subTime, 0, 4).'年'.substr($subTime, 4, 2).'月考试资格审核表');
 		//合并，水平居中，加粗
 		$objPHPExcel->getActiveSheet()->getStyle('A'.strval(1))->applyFromArray($StyleH);
 		$objPHPExcel->getActiveSheet()->getStyle('A'.strval(1))->getFont()->setBold(true);
@@ -361,7 +361,7 @@ class ExamseatController extends Base2Controller
 			}
 		}
 		
-		$fileName = date("Y年m月").'防雷装置检测技术人员能力评价考试.xls';
+		$fileName = date("Y年m月").'考试.xls';
 		$objPHPExcel->setActiveSheetIndex(0);
 		ob_end_clean();
 		header("Content-Type: applicationnd.ms-excel; charset=utf-8");

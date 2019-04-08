@@ -3,12 +3,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 	<title>管理员中心</title>
-	<script type="text/javascript" src="http://localhost/Application/Admin/Public/js/jquery-3.1.1.min.js"></script>
-  <script src="http://localhost/Application/Admin/Public/js/jquery.slimscroll.min.js"></script> 
-  <script type="text/javascript" src="http://localhost/Application/Admin/Public/bootstrap/js/bootstrap.min.js"></script>
-
-  <link rel="stylesheet" type="text/css" href="http://localhost/Application/Admin/Public/bootstrap/css/bootstrap.min.css"/>
-  <link rel="stylesheet" type="text/css" href="http://localhost/Application/Admin/Public/css/font-awesome.min.css"/>
+	<script type="text/javascript" src="http://localhost/bysj/Application/Admin/Public/js/jquery-3.1.1.min.js"></script>
+  <script src="http://localhost/bysj/Application/Admin/Public/js/jquery.slimscroll.min.js"></script> 
+  <script type="text/javascript" src="http://localhost/bysj/Application/Admin/Public/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="http://localhost/bysj/Application/Admin/Public/js/validator.js"></script>
+  <script type="text/javascript" src="http://localhost/bysj/Application/Admin/Public/js/jquery-validate.js"></script>
+   <script type="text/javascript" src="http://localhost/bysj/Application/Admin/Public/js/index1.js"></script>
+  <link rel="stylesheet" type="text/css" href="http://localhost/bysj/Application/Admin/Public/bootstrap/css/bootstrap.min.css"/>
+  <link rel="stylesheet" type="text/css" href="http://localhost/bysj/Application/Admin/Public/css/font-awesome.min.css"/>
+   <link rel="stylesheet" type="text/css" href="http://localhost/bysj/Application/Admin/Public/css/validator.css"/>
 </head>
 <body>
 <style>
@@ -88,13 +91,71 @@ a { text-decoration: none; }
    border-bottom-width: 1px;
    border-left-width: 0px;
 }
+.content{
+    width:800px;
+	height:800px;
+	overflow: hidden;
+	margin-left:0px;
+}
+.bg{
+	margin-left:0px;
+	height:800px;
+	width:800px;
+}
+.bg li{
+	list-style: none;
+	float:left;
+	display:none;
+	
+}
+.bg li.current{
+	display: block;
+}
+.indication{
+	position: absolute;
+	top:230px;
+	left:580px;
+}
+.indication li{
+	width:12px;
+	height: 12px;
+	list-style: none;
+	float: left;
+	background-color: lightgrey;
+	margin-left: 6px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+.indication .active{
+	background-color: #00a3d2;
+}
+.btn1{
+	position: absolute;
+    height:50px;
+    width:35px;
+    background-color:rgba(0,0,0,0.5);
+    color:#fff;
+    text-align:center;
+    line-height:50px;
+    font-size:30px;
+    top:155px;
+    cursor:pointer;
+}
+.btn_left{
+	position: absolute;
+	left:-20px;
+}
+.btn_right{
+	position: absolute;
+	left:806px;
+}
 </style>
 <body class="container">
 <header>
 <nav class="navbar navbar-default" style="background-color: #29aae1;">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#" style="color:#fff;">甘肃省防雷装置检测专业技术人员能力评价管理系统</a>
+      <a class="navbar-brand" href="#" style="color:#fff;">考试管理系统</a>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
@@ -127,11 +188,6 @@ a { text-decoration: none; }
               <li><a href="<?php echo U('Examseat/anpaizc');?>"><span id="anpaicuo">安排座次</span></a></li>
               <li><a href="<?php echo U('Exammanage/chengji');?>"><span>考试成绩录入</span></a></li>
               <li><a href="<?php echo U('Exammanage/chaxunchengji');?>"><span>考试成绩查询</span></a></li>
-            </ul>
-          </li>
-          <li ><a href="#" class="afinve"><i class="my-icon nav-icon icon_2"></i><span>合格证管理</span><span class="arrow"></span></a> 
-            <ul class="sub-menu s2">
-              <li><a href="<?php echo U('Index/checkhegezheng');?>" ><span>合格证查询</span></a></li>
             </ul>
           </li>
 		  <li> <a href="<?php echo U('Index/resetpwd');?>" class="afinve"> <i class="icon_1"></i> <span class="">密码修改</span></a> </li>
@@ -486,12 +542,7 @@ a { text-decoration: none; }
 </div>
 </div>
 </div>
-<footer>
-  <nav class="navbar text-center navbar-fixed-bottom">
-      Copyright xxx Gan su Meteorological Society<br>
-      甘肃省气象学会 &copy;版权所有
-  </nav>
-</footer>
+
 <script type="text/javascript">  
 $('input[id=lefile]').change(function() {  
 $('#photoCover').val($(this).val());  

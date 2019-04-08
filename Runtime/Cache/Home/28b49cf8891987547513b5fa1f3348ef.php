@@ -4,24 +4,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>用户须知</title>
-  <link href="http://localhost/Application/Home/Public/css/bootstrap.min.css" rel="stylesheet">
-  <link href="http://localhost/Application/Home/Public/css/normalize.css" rel="stylesheet">
-  <link href="http://localhost/Application/Home/Public/css/public.css" rel="stylesheet">
-  <link href="http://localhost/Application/Home/Public/css/validator.css" rel="stylesheet">
-  <link href="http://localhost/Application/Home/Public/css/completer.css" rel="stylesheet">
-  <link href="http://localhost/Application/Home/Public/jedate/skin/jedate.css" rel="stylesheet">
-  <link href="http://localhost/Application/Home/Public/css/date.css" type="text/css" rel="stylesheet">
-  <link href="http://localhost/Application/Home/Public/css/magic-check.css" rel="stylesheet" >
-  <link href="http://localhost/Application/Home/Public/css/jquery-ui.css" rel="stylesheet">  
-  <link href="http://localhost/Application/Home/Public/css/index.css" rel="stylesheet">  
-  <script src="http://localhost/Application/Home/Public/js/jquery-3.1.1.min.js"></script>
-  <script src="http://localhost/Application/Home/Public/js/bootstrap.min.js"></script>
-  <script  src="http://localhost/Application/Home/Public/js/public.js"></script>
-  <script  src="http://localhost/Application/Home/Public/js/date.js"></script>
-  <script  src="http://localhost/Application/Home/Public/js/jquery-validate.js"></script>
-  <script  src="http://localhost/Application/Home/Public/js/validator.js"></script>
-  <script  src="http://localhost/Application/Home/Public/js/index.js"></script>
-  <script type="text/javascript" src="http://localhost/Application/Home/Public/jedate/jedate.js"></script>
+  <link href="http://localhost/bysj/Application/Home/Public/css/bootstrap.min.css" rel="stylesheet">
+  <link href="http://localhost/bysj/Application/Home/Public/css/normalize.css" rel="stylesheet">
+  <link href="http://localhost/bysj/Application/Home/Public/css/public.css" rel="stylesheet">
+  <link href="http://localhost/bysj/Application/Home/Public/css/validator.css" rel="stylesheet">
+  <link href="http://localhost/bysj/Application/Home/Public/css/completer.css" rel="stylesheet">
+  <link href="http://localhost/bysj/Application/Home/Public/jedate/skin/jedate.css" rel="stylesheet">
+  <link href="http://localhost/bysj/Application/Home/Public/css/date.css" type="text/css" rel="stylesheet">
+  <link href="http://localhost/bysj/Application/Home/Public/css/magic-check.css" rel="stylesheet" >
+  <link href="http://localhost/bysj/Application/Home/Public/css/jquery-ui.css" rel="stylesheet">  
+  <link href="http://localhost/bysj/Application/Home/Public/css/index.css" rel="stylesheet">  
+  <script src="http://localhost/bysj/Application/Home/Public/js/jquery-3.1.1.min.js"></script>
+  <script src="http://localhost/bysj/Application/Home/Public/js/bootstrap.min.js"></script>
+  <script  src="http://localhost/bysj/Application/Home/Public/js/public.js"></script>
+  <script  src="http://localhost/bysj/Application/Home/Public/js/date.js"></script>
+  <script  src="http://localhost/bysj/Application/Home/Public/js/jquery-validate.js"></script>
+  <script  src="http://localhost/bysj/Application/Home/Public/js/validator.js"></script>
+  <script  src="http://localhost/bysj/Application/Home/Public/js/index.js"></script>
+  <script type="text/javascript" src="http://localhost/bysj/Application/Home/Public/jedate/jedate.js"></script>
 
   <!--[if lt IE 9]>
   <script type="text/javascript" src="http://www.jq22.com/jquery/jquery-ui-1.10.2.js"></script>

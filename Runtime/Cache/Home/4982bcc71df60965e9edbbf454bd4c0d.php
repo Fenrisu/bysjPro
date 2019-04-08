@@ -4,12 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 	<title>用户登录</title>
-	<script type="text/javascript" src="http://localhost/Application/Home/Public/js/jquery-3.1.1.min.js"></script>
-  <script type="text/javascript" src="http://localhost/Application/Home/Public/bootstrap/js/bootstrap.min.js"></script>
-  <script src="http://localhost/Application/Home/Public/js/verificationNumbers.js" tppabs="js/verificationNumbers.js"></script>
-  <script src="http://localhost/Application/Home/Public/js/Particleground.js" tppabs="js/Particleground.js"></script>
-  <script type="text/javascript" src="http://localhost/Application/Home/Public/js/jquery-validate.js"></script>
-  <link rel="stylesheet" type="text/css" href="http://localhost/Application/Home/Public/css/style.css" tppabs="css/style.css" />
+	<script type="text/javascript" src="http://localhost/bysj/Application/Home/Public/js/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="http://localhost/bysj/Application/Home/Public/bootstrap/js/bootstrap.min.js"></script>
+  <script src="http://localhost/bysj/Application/Home/Public/js/verificationNumbers.js" tppabs="js/verificationNumbers.js"></script>
+  <script src="http://localhost/bysj/Application/Home/Public/js/Particleground.js" tppabs="js/Particleground.js"></script>
+  <script type="text/javascript" src="http://localhost/bysj/Application/Home/Public/js/jquery-validate.js"></script>
+  <link rel="stylesheet" type="text/css" href="http://localhost/bysj/Application/Home/Public/css/style.css" tppabs="css/style.css" />
 </head>
 <style>
 *{
@@ -79,7 +79,7 @@ $(document).ready(function() {
 <dl class="admin_login">
 <form action="<?php echo U('Load/load');?>" id="load_form" method="POST">
  <dt>
-  <strong>能力评价管理系统</strong>
+  <strong>考试管理系统</strong>
   <em>Login Page</em>
  </dt>
  <dd class="user_icon">

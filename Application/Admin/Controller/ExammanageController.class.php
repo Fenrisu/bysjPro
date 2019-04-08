@@ -54,8 +54,8 @@ class ExammanageController extends Base2Controller{
 			}
 		}
 		/*if(is_null($examInfos)){
-			$this->error("没有数据");
 		}*/
+			$this->error("没有数据");
 
 		$userInfos = $Users->where(array('date'=>$postTime, 'pass'=>1, 'flag'=>1))->select();
 		$count = 0;
